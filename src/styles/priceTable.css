@@ -1,0 +1,498 @@
+/** @format */
+
+.price-picker {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.price-indicator {
+    display: inline-block;
+    padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+    border: 0.125rem solid #f11b3f;
+    background-color: transparent;
+    color: #ffffff !important;
+    font: 700 0.75rem/0 "lato", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+    -webkit-box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4);
+}
+
+.price-indicator:hover {
+    background-color: #f11b3f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.price-indicator.active {
+    background-color: #f11b3f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.market-price-widget .titles > li {
+    font-weight: 500;
+}
+
+.market-price-widget.hidden-arrow,
+.market-price-widget.no-arrow {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .market-price-widget.hidden-arrow,
+    .market-price-widget.no-arrow {
+        padding: 0;
+    }
+}
+.market-price-widget.hidden-arrow .prices,
+.market-price-widget.no-arrow .prices {
+    background: 0 0;
+}
+@media (min-width: 768px) {
+    .market-price-widget.hidden-arrow .markets,
+    .market-price-widget.no-arrow .markets {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+.market-price-widget.hidden-arrow .arrows,
+.market-price-widget.no-arrow .arrows {
+    display: none;
+}
+@media (max-width: 767px) {
+    .market-price-widget.hidden-arrow .arrows {
+        display: block;
+    }
+}
+.market-price-widget {
+    position: relative;
+    width: 100%;
+    margin: 2em 0;
+    overflow: hidden;
+}
+.market-price-widget table {
+    margin-bottom: 0;
+}
+.market-price-widget .table {
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .market-price-widget {
+        float: none;
+        width: 668px;
+        margin: 1rem auto 0 auto;
+    }
+}
+@media (min-width: 992px) {
+    .market-price-widget {
+        float: none;
+        width: 992px;
+        padding: 0 65px;
+    }
+}
+.market-price-widget * {
+    vertical-align: middle;
+}
+.market-price-widget * li,
+.market-price-widget * ul {
+    padding: 0;
+    margin-bottom: 2px;
+}
+.market-price-widget * li:before,
+.market-price-widget * ul:before {
+    content: "";
+}
+.market-price-widget:after {
+    clear: both;
+}
+.market-price-widget .markets {
+    float: left;
+    width: 500%;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+@media (min-width: 768px) {
+    .market-price-widget .markets {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 0 10px 0;
+    }
+}
+.market-price-widget .markets li {
+    float: left;
+    width: 15%;
+    padding: 1em 0;
+    margin: 0 2.5%;
+    color: #00c5e8;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .market-price-widget .markets li {
+        width: 20%;
+        padding: 5px 0;
+        margin: 0;
+        background: #fff;
+        border: 1px solid #e8e9ed;
+        border-left: 0;
+    }
+    .market-price-widget .markets li:first-child {
+        border: 1px solid #e8e9ed;
+    }
+}
+.market-price-widget .markets li:hover {
+    color: #0a264d;
+}
+.market-price-widget .markets li.active {
+    background: #0a264d;
+    color: #fff;
+}
+.market-price-widget .markets li.active:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #0a264d;
+    font-size: 0;
+    line-height: 0;
+    bottom: -10px;
+    margin-left: -10px;
+    left: 50%;
+    position: absolute;
+}
+.market-price-widget .markets li:before {
+    content: "";
+}
+.market-price-widget .prices {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e8e9ed;
+    overflow: hidden;
+}
+.market-price-widget .prices li {
+    width: 100%;
+    margin: 1px 0;
+    list-style-type: none;
+}
+.market-price-widget .prices li::after,
+.market-price-widget .prices li::before {
+    display: none;
+}
+.market-price-widget .prices li ul {
+    width: 100%;
+    padding: 0;
+    display: table;
+}
+@media (min-width: 320px) {
+    .market-price-widget .prices li ul {
+        padding: 0 1em;
+    }
+}
+@media (min-width: 768px) {
+    .market-price-widget .prices li ul {
+        padding: 0 2em;
+    }
+}
+@media (min-width: 992px) {
+    .market-price-widget .prices li ul {
+        padding: 0 3.5em;
+    }
+}
+.market-price-widget .prices li ul.titles li {
+    font-family: "Lato", sans-serif;
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+.market-price-widget .prices li ul.titles li:nth-child(3),
+.market-price-widget .prices li ul.titles li:nth-child(4),
+.market-price-widget .prices li ul.titles li:nth-child(5) {
+    padding: 0.25em 1em;
+}
+@media (min-width: 768px) {
+    .market-price-widget .prices li ul.titles li:nth-child(3),
+    .market-price-widget .prices li ul.titles li:nth-child(4),
+    .market-price-widget .prices li ul.titles li:nth-child(5) {
+        padding: 0.25em 1.5em;
+    }
+}
+.market-price-widget .prices li ul li {
+    width: 25%;
+    display: table-cell;
+    text-align: right;
+    padding: 0.35em 0.5em;
+    color: #1b2429;
+    font-family: latoregular, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.market-price-widget .prices li ul li:first-child {
+    width: 30%;
+    text-align: left;
+}
+.market-price-widget .prices li ul li:nth-child(2) {
+    width: 20%;
+}
+@media (min-width: 768px) {
+    .market-price-widget .prices li ul li {
+        width: 20%;
+    }
+    .market-price-widget .prices li ul li:nth-child(2) {
+        width: 10%;
+    }
+}
+.market-price-widget .prices li ul li.LiveInfo-title {
+    text-transform: uppercase;
+}
+.market-price-widget .prices li ul li.LiveInfo-change,
+.market-price-widget .prices li ul li.LiveInfo-spread {
+    font-weight: 400;
+}
+.market-price-widget .prices li ul li.LiveInfo-change {
+    color: #00c5e8;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+@media (min-width: 768px) {
+    .market-price-widget .prices li ul li.sell-buy {
+        width: 40%;
+    }
+}
+.market-price-widget .prices li ul li .buy,
+.market-price-widget .prices li ul li .sell {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+@media (min-width: 768px) {
+    .market-price-widget .prices li ul li .buy,
+    .market-price-widget .prices li ul li .sell {
+        float: left;
+        width: 50%;
+    }
+}
+.market-price-widget .prices li ul .LiveInfo-up {
+    color: #30d039;
+}
+.market-price-widget .prices li ul .LiveInfo-down {
+    color: #fb252c !important;
+}
+.market-price-widget .prices .price-slider {
+    width: 600%;
+}
+.market-price-widget .prices .price-slider .price-slide {
+    float: left;
+    width: 16.6666666%;
+    padding: 0;
+}
+.market-price-widget .prices .price-slider .price-slide ul:nth-child(odd) {
+    background: #f9f9f9;
+}
+.market-price-widget .slider-footnote {
+    font-size: 12px;
+}
+.market-price-widget .arrows a {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background-position: -25px;
+    color: #d8d8d8;
+    top: 0.5em;
+    right: -0.5em;
+    font-family: icomoon;
+    speak: none;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    -webkit-transition-duration: 0.75s;
+    -moz-transition-duration: 0.75s;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-in-out;
+}
+@media (min-width: 768px) {
+    .market-price-widget .arrows a {
+        font-size: 42px;
+    }
+}
+.market-price-widget .arrows a:hover {
+    color: #00c5e8;
+}
+.market-price-widget .arrows a.right:before {
+    content: "\e612";
+}
+@media (min-width: 768px) {
+    .market-price-widget .arrows a.right {
+        top: 3em;
+        right: -1.25em;
+    }
+}
+@media (min-width: 992px) {
+    .market-price-widget .arrows a.right {
+        right: 0;
+    }
+}
+.market-price-widget .arrows a.left {
+    background-position: 0;
+    left: 0;
+}
+.market-price-widget .arrows a.left:before {
+    content: "\e617";
+}
+@media (min-width: 768px) {
+    .market-price-widget .arrows a.left {
+        top: 3em;
+        left: -1.25em;
+    }
+}
+@media (min-width: 992px) {
+    .market-price-widget .arrows a.left {
+        left: 0;
+    }
+}
+.market-price-widget.-six-categories .markets {
+    width: 600%;
+}
+@media (min-width: 768px) {
+    .market-price-widget.-six-categories .markets {
+        width: 100%;
+    }
+}
+.market-price-widget.-six-categories .markets li {
+    width: 9%;
+    margin: 0 3.8%;
+    font-size: 12.5px;
+}
+@media (min-width: 768px) {
+    .market-price-widget.-six-categories .markets li {
+        width: 16.6666666666666%;
+        margin: 0;
+    }
+}
+
+.csam .market-price-widget table th {
+    font-size: 0.8375rem;
+}
+.csam .market-price-widget .prices {
+    background: 0 0;
+}
+.csam .market-price-widget .table {
+    margin-bottom: none;
+}
+.csam .market-price-widget #notes {
+    text-align: right;
+}
+@media (min-width: 768px) {
+    .csam .market-price-widget .arrows a.left,
+    .csam .market-price-widget .arrows a.right {
+        top: 37%;
+    }
+}
+@media (min-width: 992px) {
+    .csam .market-price-widget .arrows a.left,
+    .csam .market-price-widget .arrows a.right {
+        top: 46%;
+    }
+}
+.sb-costs .market-price-widget,
+.sb-markets .market-price-widget,
+.sb-overview .market-price-widget,
+.sb-platform .market-price-widget {
+    clear: both;
+}
+.sb-costs .market-price-widget table td,
+.sb-costs .market-price-widget table th,
+.sb-markets .market-price-widget table td,
+.sb-markets .market-price-widget table th,
+.sb-overview .market-price-widget table td,
+.sb-overview .market-price-widget table th,
+.sb-platform .market-price-widget table td,
+.sb-platform .market-price-widget table th {
+    padding: 0.45rem 1.6rem;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .sb-costs .market-price-widget li,
+    .sb-markets .market-price-widget li,
+    .sb-overview .market-price-widget li,
+    .sb-platform .market-price-widget li {
+        font-size: 12px;
+    }
+}
+
+.LiveInfo-v5 .market-price-widget .prices .price-slider {
+    width: 700%;
+}
+.LiveInfo-v5 .market-price-widget .prices .price-slider .price-slide {
+    width: 14.28%;
+}
+.LiveInfo-v5 .market-price-widget .markets li {
+    width: 9.2%;
+}
+@media (min-width: 768px) {
+    .LiveInfo-v5 .market-price-widget .left,
+    .LiveInfo-v5 .market-price-widget .right {
+        color: #071b36;
+        transform: scale(0.5);
+    }
+    .LiveInfo-v5 .market-price-widget .markets li {
+        width: 14.28%;
+    }
+}
+@media (max-width: 767px) {
+    .LiveInfo-v5 .market-price-widget .markets {
+        width: 700%;
+    }
+}
+.LiveInfo-v5.six-items .market-price-widget .prices .price-slider {
+    width: 700%;
+}
+.LiveInfo-v5.six-items .market-price-widget .prices .price-slider .price-slide {
+    width: 14.28%;
+}
+@media (min-width: 768px) {
+    .LiveInfo-v5.six-items .market-price-widget .markets li {
+        width: 16.66%;
+    }
+}
+@media (max-width: 767px) {
+    .LiveInfo-v5.six-items .market-price-widget .markets {
+        width: 700%;
+    }
+    .LiveInfo-v5.six-items .market-price-widget .markets li {
+        width: 9.33%;
+    }
+}
+.market-price-widget .prices li ul li {
+    text-align: center;
+}
+.market-price-widget .prices li ul li.LiveInfo-change {
+    text-align: right;
+}
+.market-price-widget .prices li ul.titles li:last-child {
+    text-align: right;
+}
+@media (min-width: 768px) {
+    .hide-desktop {
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}

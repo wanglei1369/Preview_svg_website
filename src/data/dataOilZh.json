@@ -1,0 +1,24 @@
+[
+    {
+        "leverage": "Up to 400",
+        "symbol": "US Oil",
+        "stop": "50%",
+        "maximum": "100",
+        "hours": "GMT+2 时间 01:05-23:55 / 周一到周四；GMT+2 时间 01:05-23:40 /Fri",
+        "minimum": "0.1",
+        "key": "1",
+        "pip": "1 USD",
+        "size": "100"
+    },
+    {
+        "leverage": "Up to 20",
+        "symbol": "UK Oil",
+        "stop": "50%",
+        "maximum": "100",
+        "hours": "GMT+2 时间 01:05-23:55 / 周一到周四；GMT+2 时间 01:05-23:40 /Fri",
+        "minimum": "0.1",
+        "key": "2",
+        "pip": "1 USD",
+        "size": "100"
+    }
+]

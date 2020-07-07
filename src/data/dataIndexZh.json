@@ -1,0 +1,146 @@
+[
+    {
+        "maxmium": "100",
+        "symbol": "SPX500",
+        "stop": "50%",
+        "hours": "GMT+2 时间 01:05-23:10/ 周一到周五",
+        "minimum": "1",
+        "key": "1",
+        "pip": "0.1USD",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "US30",
+        "stop": "50%",
+        "hours": "GMT+2 时间 01:05-23:10/ 周一到周五",
+        "minimum": "1",
+        "key": "2",
+        "pip": "0.1USD",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "NAS100",
+        "stop": "50%",
+        "hours": "GMT+2 时间 01:05-23:10/ 周一到周五",
+        "minimum": "1",
+        "key": "3",
+        "pip": "1USD",
+        "size": "1",
+        "leverage": "up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "HKG33",
+        "stop": "50%",
+        "hours": "GMT+2 Time 03:20-10:10/ Mon-Fri; Break: 05:55-07:05",
+        "minimum": "1",
+        "key": "4",
+        "pip": "1HKD",
+        "size": "1",
+        "leverage": "up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "A50",
+        "stop": "50%",
+        "hours": "GMT+2 时间 03:05-22:40/ 周一到周五; Break:10:25-11:05",
+        "minimum": "1",
+        "key": "5",
+        "pip": "1USD",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "ASXAUD",
+        "stop": "50%",
+        "hours": "GMT+2 时间 01:55-08:30, 09:10-22:55/ 周一到周五",
+        "minimum": "1",
+        "key": "6",
+        "pip": "1AUD",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "DAXEUR",
+        "stop": "50%",
+        "hours": "GMT+2 时间 00:10-01:15, 02:10-22:55, 22:30-22:55/ 周一到周五",
+        "minimum": "1",
+        "key": "7",
+        "pip": "1EUR",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "ESXEUR",
+        "stop": "50%",
+        "hours": "GMT+2 时间 08:10-21:50/ 周一到周五",
+        "minimum": "1",
+        "key": "8",
+        "pip": "1EUR",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "F40EUR",
+        "stop": "50%",
+        "hours": "GMT+2 时间 08:10-21:50/ 周一到周五",
+        "minimum": "1",
+        "key": "9",
+        "pip": "1EUR",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "FTSGBP",
+        "stop": "50%",
+        "hours": "GMT+2 时间 00:10-22:15, 22:30-22:55/ 周一到周五",
+        "minimum": "1",
+        "key": "10",
+        "pip": "1GBP",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "IBXEUR",
+        "stop": "50%",
+        "hours": "GMT+2 时间 09:10-19:50/ 周一到周五",
+        "minimum": "1",
+        "key": "11",
+        "pip": "1EUR",
+        "size": "1",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "NIKJPY",
+        "stop": "50%",
+        "hours": "GMT+2 时间 00:10-01:59, 02:00-22:55/ 周一到周五",
+        "minimum": "1",
+        "key": "12",
+        "pip": "10JPY",
+        "size": "10",
+        "leverage": "Up to 400"
+    },
+    {
+        "maxmium": "100",
+        "symbol": "SMICHF",
+        "stop": "50%",
+        "hours": "GMT+2 时间 09:10-19:50/ 周一到周五",
+        "minimum": "1",
+        "key": "13",
+        "pip": "1CHF",
+        "size": "1",
+        "leverage": "Up to 400"
+    }
+
+]

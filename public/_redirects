@@ -1,0 +1,7 @@
+/*  /index.html  200
+# These rules will change if you change your site’s custom domains or HTTPS settings
+# *** Warning! Your custom domain is not using HTTPS yet ***
+
+# Redirect default Netlify subdomain to primary domain
+http://cjcmarkets-asia.netlify.com/* http://cjcmarkets-svg.com/:splat 301!
+https://cjcmarkets-asia.netlify.com/* https://cjcmarkets-svg.com/:splat 301!

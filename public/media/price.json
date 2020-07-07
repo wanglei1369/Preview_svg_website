@@ -1,0 +1,649 @@
+{ "EURUSD":{
+  "Symbol": "EURUSD",
+  "Bid":"1.11384",
+  "Ask": "1.11385",
+  "High": "1.11438",
+  "Low": "1.11305",
+  "Direction": "-1",
+  "Last": "23:41:10"
+}, "USDJPY":{
+  "Symbol": "USDJPY",
+  "Bid": "107.316",
+  "Ask": "107.316",
+  "High": "107.743",
+  "Low": "107.264",
+  "Direction": "-1",
+  "Last": "23:41:11"
+}, "GBPUSD":{
+  "Symbol": "GBPUSD",
+  "Bid": "1.28724",
+  "Ask": "1.28727",
+  "High": "1.28753",
+  "Low": "1.28608",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "USDCHF":{
+  "Symbol": "USDCHF",
+  "Bid": "0.9561",
+  "Ask": "0.95615",
+  "High": "0.95787",
+  "Low": "0.95568",
+  "Direction": "1",
+  "Last": "23:41:13"
+}, "EURCHF":{
+  "Symbol": "EURCHF",
+  "Bid": "1.06491",
+  "Ask": "1.06496",
+  "High": "1.06656",
+  "Low": "1.0644",
+  "Direction": "0",
+  "Last": "23:41:07"
+}, "AUDUSD":{
+  "Symbol": "AUDUSD",
+  "Bid": "0.66238",
+  "Ask": "0.6624",
+  "High": "0.66298",
+  "Low": "0.66072",
+  "Direction": "1",
+  "Last": "23:41:08"
+}, "USDCAD":{
+  "Symbol": "USDCAD",
+  "Bid": "1.33946",
+  "Ask": "1.33948",
+  "High": "1.34023",
+  "Low": "1.33829",
+  "Direction": "-1",
+  "Last": "23:41:05"
+}, "NZDUSD":{
+  "Symbol": "NZDUSD",
+  "Bid": "0.63018",
+  "Ask": "0.63019",
+  "High": "0.63032",
+  "Low": "0.62804",
+  "Direction": "1",
+  "Last": "23:41:07"
+}, "EURGBP":{
+  "Symbol": "EURGBP",
+  "Bid": "0.86522",
+  "Ask": "0.86528",
+  "High": "0.86605",
+  "Low": "0.86447",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "EURJPY":{
+  "Symbol": "EURJPY",
+  "Bid": "119.527",
+  "Ask": "119.53",
+  "High": "120.004",
+  "Low": "119.482",
+  "Direction": "0",
+  "Last": "23:41:09"
+}, "GBPJPY":{
+  "Symbol": "GBPJPY",
+  "Bid": "138.139",
+  "Ask": "138.146",
+  "High": "138.688",
+  "Low": "138.02",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "CHFJPY":{
+  "Symbol": "CHFJPY",
+  "Bid": "112.239",
+  "Ask": "112.243",
+  "High": "112.622",
+  "Low": "112.172",
+  "Direction": "1",
+  "Last": "23:41:06"
+}, "GBPCHF":{
+  "Symbol": "GBPCHF",
+  "Bid": "1.23071",
+  "Ask": "1.23079",
+  "High": "1.23231",
+  "Low": "1.22959",
+  "Direction": "-1",
+  "Last": "23:41:11"
+}, "EURAUD":{
+  "Symbol": "EURAUD",
+  "Bid": "1.68148",
+  "Ask": "1.68153",
+  "High": "1.68521",
+  "Low": "1.67937",
+  "Direction": "-1",
+  "Last": "23:41:10"
+}, "EURCAD":{
+  "Symbol": "EURCAD",
+  "Bid": "1.49186",
+  "Ask": "1.49194",
+  "High": "1.49327",
+  "Low": "1.4898",
+  "Direction": "-1",
+  "Last": "23:41:10"
+}, "AUDCAD":{
+  "Symbol": "AUDCAD",
+  "Bid": "0.88721",
+  "Ask": "0.88729",
+  "High": "0.88755",
+  "Low": "0.88536",
+  "Direction": "1",
+  "Last": "23:41:11"
+}, "AUDJPY":{
+  "Symbol": "AUDJPY",
+  "Bid": "71.084",
+  "Ask": "71.086",
+  "High": "71.431",
+  "Low": "70.952",
+  "Direction": "1",
+  "Last": "23:41:11"
+}, "CADJPY":{
+  "Symbol": "CADJPY",
+  "Bid": "80.117",
+  "Ask": "80.12",
+  "High": "80.489",
+  "Low": "80.048",
+  "Direction": "1",
+  "Last": "23:41:06"
+}, "NZDJPY":{
+  "Symbol": "NZDJPY",
+  "Bid": "67.628",
+  "Ask": "67.63",
+  "High": "67.89",
+  "Low": "67.441",
+  "Direction": "1",
+  "Last": "23:41:08"
+}, "GBPCAD":{
+  "Symbol": "GBPCAD",
+  "Bid": "1.72415",
+  "Ask": "1.72426",
+  "High": "1.72454",
+  "Low": "1.72186",
+  "Direction": "1",
+  "Last": "23:41:12"
+}, "GBPNZD":{
+  "Symbol": "GBPNZD",
+  "Bid": "2.04258",
+  "Ask": "2.04268",
+  "High": "2.04845",
+  "Low": "2.0414",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "GBPAUD":{
+  "Symbol": "GBPAUD",
+  "Bid": "1.94329",
+  "Ask": "1.94338",
+  "High": "1.94661",
+  "Low": "1.9411",
+  "Direction": "1",
+  "Last": "23:41:12"
+}, "AUDNZD":{
+  "Symbol": "AUDNZD",
+  "Bid": "1.05109",
+  "Ask": "1.05113",
+  "High": "1.05298",
+  "Low": "1.05063",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "USDSEK":{
+  "Symbol": "USDSEK",
+  "Bid": "9.47559",
+  "Ask": "9.47887",
+  "High": "9.49033",
+  "Low": "9.46605",
+  "Direction": "-1",
+  "Last": "23:41:11"
+}, "EURSEK":{
+  "Symbol": "EURSEK",
+  "Bid": "10.5536",
+  "Ask": "10.55847",
+  "High": "10.56862",
+  "Low": "10.536",
+  "Direction": "-1",
+  "Last": "23:41:05"
+}, "EURNOK":{
+  "Symbol": "EURNOK",
+  "Bid": "10.32194",
+  "Ask": "10.32906",
+  "High": "10.3322",
+  "Low": "10.29593",
+  "Direction": "0",
+  "Last": "23:41:05"
+}, "USDNOK":{
+  "Symbol": "USDNOK",
+  "Bid": "9.26799",
+  "Ask": "9.27267",
+  "High": "9.2775",
+  "Low": "9.24879",
+  "Direction": "-1",
+  "Last": "23:41:11"
+}, "USDMXN":{
+  "Symbol": "USDMXN",
+  "Bid": "19.558",
+  "Ask": "19.5595",
+  "High": "19.5684",
+  "Low": "19.512",
+  "Direction": "0",
+  "Last": "23:41:10"
+}, "AUDCHF":{
+  "Symbol": "AUDCHF",
+  "Bid": "0.6333",
+  "Ask": "0.63335",
+  "High": "0.63465",
+  "Low": "0.63181",
+  "Direction": "1",
+  "Last": "23:41:11"
+}, "EURNZD":{
+  "Symbol": "EURNZD",
+  "Bid": "1.7674",
+  "Ask": "1.76744",
+  "High": "1.7731",
+  "Low": "1.7665",
+  "Direction": "0",
+  "Last": "23:41:08"
+}, "USDZAR":{
+  "Symbol": "USDZAR",
+  "Bid": "15.2922",
+  "Ask": "15.2975",
+  "High": "15.3197",
+  "Low": "15.2442",
+  "Direction": "0",
+  "Last": "23:41:10"
+}, "USDHKD":{
+  "Symbol": "USDHKD",
+  "Bid": "7.77224",
+  "Ask": "7.77232",
+  "High": "7.77338",
+  "Low": "7.77048",
+  "Direction": "0",
+  "Last": "23:40:57"
+}, "USDTRY":{
+  "Symbol": "USDTRY",
+  "Bid": "6.08955",
+  "Ask": "6.09105",
+  "High": "6.09489",
+  "Low": "6.07039",
+  "Direction": "1",
+  "Last": "23:41:10"
+}, "EURTRY":{
+  "Symbol": "EURTRY",
+  "Bid": "6.7858",
+  "Ask": "6.7872",
+  "High": "6.7951",
+  "Low": "6.763",
+  "Direction": "0",
+  "Last": "23:41:12"
+}, "NZDCHF":{
+  "Symbol": "NZDCHF",
+  "Bid": "0.60251",
+  "Ask": "0.60254",
+  "High": "0.60355",
+  "Low": "0.60056",
+  "Direction": "-1",
+  "Last": "23:41:13"
+}, "CADCHF":{
+  "Symbol": "CADCHF",
+  "Bid": "0.7138",
+  "Ask": "0.71384",
+  "High": "0.7154",
+  "Low": "0.7132",
+  "Direction": "1",
+  "Last": "23:41:11"
+}, "NZDCAD":{
+  "Symbol": "NZDCAD",
+  "Bid": "0.84407",
+  "Ask": "0.84413",
+  "High": "0.8442",
+  "Low": "0.84151",
+  "Direction": "1",
+  "Last": "23:41:08"
+}, "TRYJPY":{
+  "Symbol": "TRYJPY",
+  "Bid": "17.61",
+  "Ask": "17.615",
+  "High": "17.724",
+  "Low": "17.589",
+  "Direction": "1",
+  "Last": "23:41:08"
+}, "USDILS":{
+  "Symbol": "USDILS",
+  "Bid": "3.4479",
+  "Ask": "3.45355",
+  "High": "3.4555",
+  "Low": "3.4464",
+  "Direction": "-1",
+  "Last": "23:39:29"
+}, "USDCNH":{
+  "Symbol": "USDCNH",
+  "Bid": "6.93669",
+  "Ask": "6.93688",
+  "High": "6.94172",
+  "Low": "6.92144",
+  "Direction": "-1",
+  "Last": "23:41:12"
+}, "AUS200":{
+  "Symbol": "AUS200",
+  "Bid": "6375.5",
+  "Ask": "6377.9",
+  "High": "6465",
+  "Low": "6364.9",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "ESP35":{
+  "Symbol": "ESP35",
+  "Bid": "8960.5",
+  "Ask": "8963.5",
+  "High": "8976.5",
+  "Low": "8714",
+  "Direction": "1",
+  "Last": "13:59:52"
+}, "FRA40":{
+  "Symbol": "FRA40",
+  "Bid": "5529",
+  "Ask": "5531",
+  "High": "5538.5",
+  "Low": "5318.9",
+  "Direction": "1",
+  "Last": "15:59:54"
+}, "GER30":{
+  "Symbol": "GER30",
+  "Bid": "12152.85",
+  "Ask": "12155.55",
+  "High": "12276.07",
+  "Low": "12138.65",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "HKG33":{
+  "Symbol": "HKG33",
+  "Bid": "26484",
+  "Ask": "26498",
+  "High": "26513",
+  "Low": "26199",
+  "Direction": "0",
+  "Last": "22:59:58"
+}, "JPN225":{
+  "Symbol": "JPN225",
+  "Bid": "21255.5",
+  "Ask": "21263.5",
+  "High": "21418.5",
+  "Low": "21219.5",
+  "Direction": "0",
+  "Last": "23:40:48"
+}, "NAS100":{
+  "Symbol": "NAS100",
+  "Bid": "8826.15",
+  "Ask": "8827.2",
+  "High": "8899.97",
+  "Low": "8813.95",
+  "Direction": "1",
+  "Last": "23:41:13"
+}, "SPX500":{
+  "Symbol": "SPX500",
+  "Bid": "3089.2",
+  "Ask": "3089.82",
+  "High": "3115.5",
+  "Low": "3086.3",
+  "Direction": "0",
+  "Last": "23:41:12"
+}, "UK100":{
+  "Symbol": "UK100",
+  "Bid": "6880.15",
+  "Ask": "6881.15",
+  "High": "6889.31",
+  "Low": "6641.04",
+  "Direction": "1",
+  "Last": "15:59:55"
+}, "US30":{
+  "Symbol": "US30",
+  "Bid": "26769.051",
+  "Ask": "26771.15",
+  "High": "26995.301",
+  "Low": "26745.801",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "Copper":{
+  "Symbol": "Copper",
+  "Bid": "2.594",
+  "Ask": "2.5965",
+  "High": "2.6015",
+  "Low": "2.5825",
+  "Direction": "0",
+  "Last": "23:40:00"
+}, "CHN50":{
+  "Symbol": "CHN50",
+  "Bid": "14039",
+  "Ask": "14048",
+  "High": "14075",
+  "Low": "13834",
+  "Direction": "0",
+  "Last": "23:40:17"
+}, "EUSTX50":{
+  "Symbol": "EUSTX50",
+  "Bid": "3463.5",
+  "Ask": "3464.7",
+  "High": "3470.2",
+  "Low": "3324.5",
+  "Direction": "0",
+  "Last": "15:59:55"
+}, "USDOLLAR":{
+  "Symbol": "USDOLLAR",
+  "Bid": "12341",
+  "Ask": "12343",
+  "High": "12351.3",
+  "Low": "12339.5",
+  "Direction": "0",
+  "Last": "23:41:12"
+}, "US2000":{
+  "Symbol": "US2000",
+  "Bid": "1507.6",
+  "Ask": "1507.95",
+  "High": "1520.65",
+  "Low": "1506.45",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "USOil":{
+  "Symbol": "USOil",
+  "Bid": "47.3",
+  "Ask": "47.33",
+  "High": "47.59",
+  "Low": "47.11",
+  "Direction": "0",
+  "Last": "23:41:11"
+}, "UKOil":{
+  "Symbol": "UKOil",
+  "Bid": "51.7875",
+  "Ask": "51.8225",
+  "High": "52.0325",
+  "Low": "51.5875",
+  "Direction": "0",
+  "Last": "23:41:12"
+}, "SOYF":{
+  "Symbol": "SOYF",
+  "Bid": "909.875",
+  "Ask": "910.625",
+  "High": "910.75",
+  "Low": "906.875",
+  "Direction": "0",
+  "Last": "23:40:43"
+}, "NGAS":{
+  "Symbol": "NGAS",
+  "Bid": "1.8325",
+  "Ask": "1.8405",
+  "High": "1.8505",
+  "Low": "1.828",
+  "Direction": "0",
+  "Last": "23:39:59"
+}, "WHEATF":{
+  "Symbol": "WHEATF",
+  "Bid": "518.875",
+  "Ask": "519.5",
+  "High": "520.375",
+  "Low": "518",
+  "Direction": "-1",
+  "Last": "23:40:47"
+}, "CORNF":{
+  "Symbol": "CORNF",
+  "Bid": "383.25",
+  "Ask": "384",
+  "High": "385.125",
+  "Low": "383",
+  "Direction": "0",
+  "Last": "23:38:36"
+}, "Bund":{
+  "Symbol": "Bund",
+  "Bid": "177.49",
+  "Ask": "177.52",
+  "High": "178.15",
+  "Low": "177.455",
+  "Direction": "1",
+  "Last": "15:59:30"
+}, "XAUUSD":{
+  "Symbol": "XAUUSD",
+  "Bid": "1639.84",
+  "Ask": "1640.22",
+  "High": "1641.12",
+  "Low": "1634.91",
+  "Direction": "1",
+  "Last": "23:41:12"
+}, "XAGUSD":{
+  "Symbol": "XAGUSD",
+  "Bid": "17.199",
+  "Ask": "17.238",
+  "High": "17.285",
+  "Low": "17.13",
+  "Direction": "1",
+  "Last": "23:41:11"
+}, "EMBasket":{
+  "Symbol": "EMBasket",
+  "Bid": "9559.8",
+  "Ask": "9562.8",
+  "High": "9586.7",
+  "Low": "9555.3",
+  "Direction": "-1",
+  "Last": "23:41:13"
+}, "JPYBasket":{
+  "Symbol": "JPYBasket",
+  "Bid": "10212.7",
+  "Ask": "10215.7",
+  "High": "10223.3",
+  "Low": "10171.3",
+  "Direction": "0",
+  "Last": "23:41:12"
+}, "BTCUSD":{
+  "Symbol": "BTCUSD",
+  "Bid": "8907.6",
+  "Ask": "8930.5",
+  "High": "8981.9",
+  "Low": "8711.2",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "BCHUSD":{
+  "Symbol": "BCHUSD",
+  "Bid": "325.7",
+  "Ask": "328.95",
+  "High": "330.8",
+  "Low": "316.4",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "ETHUSD":{
+  "Symbol": "ETHUSD",
+  "Bid": "227.11",
+  "Ask": "228",
+  "High": "229.15",
+  "Low": "222.35",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "LTCUSD":{
+  "Symbol": "LTCUSD",
+  "Bid": "60.92",
+  "Ask": "61.07",
+  "High": "61.45",
+  "Low": "59.95",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "XRPUSD":{
+  "Symbol": "XRPUSD",
+  "Bid": "0.2368",
+  "Ask": "0.2369",
+  "High": "0.2391",
+  "Low": "0.2329",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "CryptoMajor":{
+  "Symbol": "CryptoMajor",
+  "Bid": "162.915",
+  "Ask": "164.915",
+  "High": "165.701",
+  "Low": "159.472",
+  "Direction": "1",
+  "Last": "23:41:13"
+}, "EOSUSD":{
+  "Symbol": "EOSUSD",
+  "Bid": "3.639",
+  "Ask": "3.661",
+  "High": "3.69",
+  "Low": "3.564",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "XLMUSD":{
+  "Symbol": "XLMUSD",
+  "Bid": "0.06031",
+  "Ask": "0.06037",
+  "High": "0.06046",
+  "Low": "0.0577",
+  "Direction": "0",
+  "Last": "23:41:13"
+}, "ESPORTS":{
+  "Symbol": "ESPORTS",
+  "Bid": "1759.568",
+  "Ask": "1760.143",
+  "High": "1760.7",
+  "Low": "1665.462",
+  "Direction": "-1",
+  "Last": "15:59:49"
+}, "BIOTECH":{
+  "Symbol": "BIOTECH",
+  "Bid": "2643.302",
+  "Ask": "2644.314",
+  "High": "2647.429",
+  "Low": "2516.63",
+  "Direction": "1",
+  "Last": "15:59:49"
+}, "CANNABIS":{
+  "Symbol": "CANNABIS",
+  "Bid": "519.117",
+  "Ask": "520.646",
+  "High": "527.436",
+  "Low": "500.522",
+  "Direction": "0",
+  "Last": "15:59:49"
+}, "FAANG":{
+  "Symbol": "FAANG",
+  "Bid": "2949.403",
+  "Ask": "2950.526",
+  "High": "2950.097",
+  "Low": "2838.505",
+  "Direction": "-1",
+  "Last": "15:59:49"
+}, "CHN.TECH":{
+  "Symbol": "CHN.TECH",
+  "Bid": "2583.182",
+  "Ask": "2585.4",
+  "High": "2590.027",
+  "Low": "2482.052",
+  "Direction": "1",
+  "Last": "15:59:49"
+}, "CHN.ECOMM":{
+  "Symbol": "CHN.ECOMM",
+  "Bid": "2929.927",
+  "Ask": "2932.31",
+  "High": "2940.43",
+  "Low": "2837.729",
+  "Direction": "-1",
+  "Last": "15:59:49"
+}, "USEquities":{
+  "Symbol": "USEquities",
+  "Bid": "2436.656",
+  "Ask": "2438.656",
+  "High": "2458.724",
+  "Low": "2434.405",
+  "Direction": "1",
+  "Last": "23:41:13"
+}}

@@ -1,0 +1,304 @@
+[
+    {
+        "leverage": "10",
+        "symbol": "ADS-Adidas",
+        "﻿key": "1",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "AI-Air Liquide",
+        "﻿key": "2",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "AIR-Airbus Group",
+        "﻿key": "3",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "ALV-Allianz",
+        "﻿key": "4",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "BAS-BASF",
+        "﻿key": "5",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "BATS-British American Tobacco",
+        "﻿key": "6",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "BAYN-Bayer",
+        "﻿key": "7",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "BMW-Bayerische Motoren Werke",
+        "﻿key": "8",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "BN-Danone",
+        "﻿key": "9",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "BNP-BNP Paribas",
+        "﻿key": "10",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "CS-AXA",
+        "﻿key": "11",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "DAI-Daimler",
+        "﻿key": "12",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "DGE-Diageo",
+        "﻿key": "13",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "DTEL-Deutsche Telekom",
+        "﻿key": "14",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "EDF-Electricite de France",
+        "﻿key": "15",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "GLEN-Glencore",
+        "﻿key": "16",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "GSK-GlaxoSmithKline",
+        "﻿key": "17",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "IBE-Iberdrola",
+        "﻿key": "18",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "MC-LVMH Moet Hennessy Louis Vuitton",
+        "﻿key": "19",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "NESN-Nestle",
+        "﻿key": "20",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "CHF",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "NOVN-Novartis",
+        "﻿key": "21",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "CHF",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "OR-L`Oreal",
+        "﻿key": "22",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "RDSA-Royal Dutch Shell",
+        "﻿key": "23",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "RIO-Rio Tinto",
+        "﻿key": "24",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "ROG-Roche Holding",
+        "﻿key": "25",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "CHF",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "SAP-SAP",
+        "﻿key": "26",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "SIE-Siemens",
+        "﻿key": "27",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "ULVR-Unilever",
+        "﻿key": "28",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "VOD-Vodafone Group",
+        "﻿key": "29",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "VOW3-Volkswagen",
+        "﻿key": "30",
+        "maximum": "100",
+        "hours": "GMT+2 Time 09:00-17:29/ Mon-Fri",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    }
+]
+
+

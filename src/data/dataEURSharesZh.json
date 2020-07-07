@@ -1,0 +1,304 @@
+[
+    {
+        "leverage": "10",
+        "symbol": "阿迪达斯",
+        "﻿key": "1",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "法国液化空气集团",
+        "﻿key": "2",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "空中客车集团",
+        "﻿key": "3",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "德国安联集团",
+        "﻿key": "4",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "巴斯夫股份公司",
+        "﻿key": "5",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "巴斯夫不列颠美洲烟草",
+        "﻿key": "6",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "拜耳公司",
+        "﻿key": "7",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "宝马",
+        "﻿key": "8",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "达能集团",
+        "﻿key": "9",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "法国巴黎银行",
+        "﻿key": "10",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "法国安盛集团",
+        "﻿key": "11",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "戴姆勒股份公司",
+        "﻿key": "12",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "帝亚吉欧(上海)洋酒有限公司",
+        "﻿key": "13",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "德国电信股份公司",
+        "﻿key": "14",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "法国电力集团",
+        "﻿key": "15",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "嘉能可集团",
+        "﻿key": "16",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "葛兰素史克公司",
+        "﻿key": "17",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "西班牙伊维尔德罗拉公司",
+        "﻿key": "18",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "法国团LVMH集团",
+        "﻿key": "19",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "雀巢公司",
+        "﻿key": "20",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "CHF",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "诺华（制药）集团",
+        "﻿key": "21",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "CHF",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "欧莱雅公司",
+        "﻿key": "22",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "荷兰皇家壳牌集团",
+        "﻿key": "23",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "力拓集团",
+        "﻿key": "24",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "罗氏控股",
+        "﻿key": "25",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "CHF",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "SAP公司",
+        "﻿key": "26",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "西门子股份公司",
+        "﻿key": "27",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "联合利华公司",
+        "﻿key": "28",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "沃达丰集团",
+        "﻿key": "29",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "GBP",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "大众汽车集团",
+        "﻿key": "30",
+        "maximum": "100",
+        "hours": "GMT+2 时间 09:00-17:30/ 周一到周五",
+        "minimum": "1",
+        "pip": "EUR",
+        "size": "100"
+    }
+]
+
+

@@ -1,0 +1,302 @@
+[
+    {
+        "leverage": "10",
+        "symbol": "佳能集团",
+        "﻿key": "1",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "本田汽车公司",
+        "﻿key": "2",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "日本烟草产业股份公司",
+        "﻿key": "3",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "日本电信运营商",
+        "﻿key": "4",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "基恩士（中国）有限公司",
+        "﻿key": "5",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "牧田(中国)有限公司",
+        "﻿key": "6",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "三菱日联金融集团",
+        "﻿key": "7",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "三井物产(中国)有限公司",
+        "﻿key": "8",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "日本瑞穗金融集团",
+        "﻿key": "9",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "日产汽车有限公司",
+        "﻿key": "10",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "七一控股有限公司",
+        "﻿key": "11",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "软银集团",
+        "﻿key": "12",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "索尼(中国)有限公司",
+        "﻿key": "13",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "住友商事开沙有限公司",
+        "﻿key": "14",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "东芝集团",
+        "﻿key": "15",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "日本丰田汽车公司",
+        "﻿key": "16",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "友邦保险集团",
+        "﻿key": "17",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "200"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中国移动通信",
+        "﻿key": "18",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中信证券",
+        "﻿key": "19",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "长江和记实业有限公司",
+        "﻿key": "20",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中国海洋石油集团有限公司",
+        "﻿key": "21",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "香港恒基兆业地产有限公司",
+        "﻿key": "22",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中国银行股份有限公司",
+        "﻿key": "23",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "汇丰银行控股公司",
+        "﻿key": "24",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "400"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中国工商银行",
+        "﻿key": "25",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "联想集团",
+        "﻿key": "26",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "2000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中国人民财产保险股份有限公司",
+        "﻿key": "27",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "2000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "中国神华能源股份有限公司",
+        "﻿key": "28",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "新鸿基地产发展有限公司",
+        "﻿key": "29",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "腾讯控股有限公司",
+        "﻿key": "30",
+        "maximum": "100",
+        "hours": "GMT+2  时间 02:00-04:30, 05:30-08:00/ 周一到周五",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "100"
+    }
+]

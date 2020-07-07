@@ -1,0 +1,304 @@
+[
+    {
+        "leverage": "10",
+        "symbol": "Canon-Canon",
+        "﻿key": "1",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Honda-Honda Motor Company",
+        "﻿key": "2",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "JpnTbco-Japan Tobacco",
+        "﻿key": "3",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "KDDI-KDDI",
+        "﻿key": "4",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Keyence-Keyence",
+        "﻿key": "5",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Makita-Makita",
+        "﻿key": "6",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Mitsubis-Mitsubishi UFJ Financial Group",
+        "﻿key": "7",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Mitsui-Mitsui & Co",
+        "﻿key": "8",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Mizuho-Mizuho Financial Group",
+        "﻿key": "9",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Nissan-Nissan Motor Co",
+        "﻿key": "10",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Seven&I-Seven & i Holdings Co",
+        "﻿key": "11",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Softbank-Softbank",
+        "﻿key": "12",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Sony-Sony",
+        "﻿key": "13",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Sumitomo-SUMITOMO SHOJI KAISHA,LTD.",
+        "﻿key": "14",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Toshiba-Toshiba Corporation",
+        "﻿key": "15",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Toyota-Toyota Motor Corp",
+        "﻿key": "16",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "JPY",
+        "size": "100"
+    },
+    {
+        "leverage": "10",
+        "symbol": "AIA-AIA Group",
+        "﻿key": "17",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "200"
+    },
+    {
+        "leverage": "10",
+        "symbol": "ChinaMob-China Mobile",
+        "﻿key": "18",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "CITIC-CITIC Securities",
+        "﻿key": "19",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "CKHutchi-CK Hutchison Holdings",
+        "﻿key": "20",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "CNOOC-CNOOC",
+        "﻿key": "21",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Henderson-Henderson Land",
+        "﻿key": "22",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "HKBankCh-Bank of China",
+        "﻿key": "23",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "HSBC-HSBC Holdings",
+        "﻿key": "24",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "400"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Ind&ComB-Industrial and Commercial Bank of China",
+        "﻿key": "25",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Lenovo-Lenovo Group",
+        "﻿key": "26",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "2000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "PICC-PICC Property and Casualty",
+        "﻿key": "27",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "2000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "ShenEnrg-China Shenhua Energy",
+        "﻿key": "28",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "500"
+    },
+    {
+        "leverage": "10",
+        "symbol": "SHK-SHK Ppt",
+        "﻿key": "29",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "1000"
+    },
+    {
+        "leverage": "10",
+        "symbol": "Tencent-Tencent Holdings",
+        "﻿key": "30",
+        "maximum": "100",
+        "hours": "GMT+2 Time 02:00-04:30, 05:30-08:00/ Mon-Fri",
+        "minimum": "1",
+        "pip": "HKD",
+        "size": "100"
+    }
+]
+
+

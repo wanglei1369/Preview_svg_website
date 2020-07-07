@@ -1,0 +1,128 @@
+[
+    {
+        "leverage": "5",
+        "symbol": "BATUSD",
+        "﻿key": "1",
+        "maximum": "100",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "10000"
+    },
+    {
+        "leverage": "5",
+        "symbol": "BCHUSD",
+        "﻿key": "2",
+        "maximum": "100",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "BTCUSD",
+        "﻿key": "3",
+        "maximum": "100",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "1"
+    },
+    {
+        "leverage": "5",
+        "symbol": "DSHUSD",
+        "﻿key": "4",
+        "maximum": "1000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "EOSUSD",
+        "﻿key": "5",
+        "maximum": "10000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "ETCUSD",
+        "﻿key": "6",
+        "maximum": "10000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "ETHUSD",
+        "﻿key": "7",
+        "maximum": "100",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "IOTUSD",
+        "﻿key": "8",
+        "maximum": "10000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "LTCUSD",
+        "﻿key": "9",
+        "maximum": "1000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "NEOUSD",
+        "﻿key": "10",
+        "maximum": "10000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "OMGUSD",
+        "﻿key": "11",
+        "maximum": "10000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "XMRUSD",
+        "﻿key": "12",
+        "maximum": "1000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "XRPUSD",
+        "﻿key": "13",
+        "maximum": "10000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    },
+    {
+        "leverage": "5",
+        "symbol": "ZECUSD",
+        "﻿key": "14",
+        "maximum": "1000",
+        "hours": "GMT+2 时间 00:00-22:55, 23:05-24:00 / 周一到周日",
+        "minimum": "0.01",
+        "size": "100"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "symbol": "Feb-20",
+        "futures": "Mon 30-Dec-2019",
+        "﻿key": "1",
+        "est": "Mon 23-Dec-2019",
+        "nz": "Tue 24-Dec-2019"
+    },
+    {
+        "symbol": "Mar-20",
+        "futures": "Fri 31-Jan-2020",
+        "﻿key": "2",
+        "est": "Tue 28-Jan-2020",
+        "nz": "Wed 29-Jan-2020"
+    },
+    {
+        "symbol": "Apr-20",
+        "futures": "Fri 28-Feb-2020",
+        "﻿key": "3",
+        "est": "Tue 25-Feb-2020",
+        "nz": "Wed 26-Feb-2020"
+    },
+    {
+        "symbol": "May-20",
+        "futures": "Tue 31-Mar-2020",
+        "﻿key": "4",
+        "est": "Thu 26-Mar-2020",
+        "nz": "Fri 27-Mar-2020"
+    },
+    {
+        "symbol": "Jun-20",
+        "futures": "Thu 30-Apr-2020",
+        "﻿key": "5",
+        "est": "Mon 27-Apr-2020",
+        "nz": "Tue 28-Apr-2020"
+    },
+    {
+        "symbol": "Jul-20",
+        "futures": "Fri 29-May-2020",
+        "﻿key": "6",
+        "est": "Tue 26-May-2020",
+        "nz": "Wed 27-May-2020"
+    },
+    {
+        "symbol": "Aug-20",
+        "futures": "Tue 30-Jun-2020",
+        "﻿key": "7",
+        "est": "Thu 25-Jun-2020",
+        "nz": "Fri 26-Jun-2020"
+    },
+    {
+        "symbol": "Sep-20",
+        "futures": "Fri 31-Jul-2020",
+        "﻿key": "8",
+        "est": "Tue 28-Jul-2020",
+        "nz": "Wed 29-Jul-2020"
+    },
+    {
+        "symbol": "Oct-20",
+        "futures": "Fri 28-Aug-2020",
+        "﻿key": "9",
+        "est": "Tue 25-Aug-2020",
+        "nz": "Wed 26-Aug-2020"
+    },
+    {
+        "symbol": "Nov-20",
+        "futures": "Wed 30-Sep-2020",
+        "﻿key": "10",
+        "est": "Fri 25-Sep-2020",
+        "nz": "Sat 26-Sep-2020"
+    },
+    {
+        "symbol": "Dec-20",
+        "futures": "Fri 30-Oct-2020",
+        "﻿key": "11",
+        "est": "Tue 27-Oct-2020",
+        "nz": "Wed 28-Oct-2020"
+    },
+    {
+        "symbol": "Jan-21",
+        "futures": "Mon 30-Nov-2020",
+        "﻿key": "12",
+        "est": "Wed 25-Nov-2020",
+        "nz": "Thu 26-Nov-2020"
+    }
+]

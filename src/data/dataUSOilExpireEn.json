@@ -1,0 +1,93 @@
+[
+    {
+        "est": "Mon 16-Dec-2019",
+        "symbol": "Jan-20",
+        "futures": "Thu 19-Dec-2019",
+        "﻿key": "1",
+        "nz": "Tue 17-Dec-2019"
+    },
+    {
+        "est": "Thu 16-Jan-2020",
+        "symbol": "Feb-20",
+        "futures": "Tue 21-Jan-2020",
+        "﻿key": "2",
+        "nz": "Fri 17-Jan-2020"
+    },
+    {
+        "est": "Mon 17-Feb-2020",
+        "symbol": "Mar-20",
+        "futures": "Thu 20-Feb-2020",
+        "﻿key": "3",
+        "nz": "Tue 18-Feb-2020"
+    },
+    {
+        "est": "Tue 17-Mar-2020",
+        "symbol": "Apr-20",
+        "futures": "Fri 20-Mar-2020",
+        "﻿key": "4",
+        "nz": "Wed 18-Mar-2020"
+    },
+    {
+        "est": "Thu 16-Apr-2020",
+        "symbol": "May-20",
+        "futures": "Tue 21-Apr-2020",
+        "﻿key": "5",
+        "nz": "Fri 17-Apr-2020"
+    },
+    {
+        "est": "Thu 14-May-2020",
+        "symbol": "Jun-20",
+        "futures": "Tue 19-May-2020",
+        "﻿key": "6",
+        "nz": "Fri 15-May-2020"
+    },
+    {
+        "est": "Wed 17-Jun-2020",
+        "symbol": "Jul-20",
+        "futures": "Mon 22-Jun-2020",
+        "﻿key": "7",
+        "nz": "Thu 18-Jun-2020"
+    },
+    {
+        "est": "Thu 16-Jul-2020",
+        "symbol": "Aug-20",
+        "futures": "Tue 21-Jul-2020",
+        "﻿key": "8",
+        "nz": "Fri 17-Jul-2020"
+    },
+    {
+        "est": "Mon 17-Aug-2020",
+        "symbol": "Sep-20",
+        "futures": "Thu 20-Aug-2020",
+        "﻿key": "9",
+        "nz": "Tue 18-Aug-2020"
+    },
+    {
+        "est": "Thu 17-Sep-2020",
+        "symbol": "Oct-20",
+        "futures": "Tue 22-Sep-2020",
+        "﻿key": "10",
+        "nz": "Fri 18-Sep-2020"
+    },
+    {
+        "est": "Thu 15-Oct-2020",
+        "symbol": "Nov-20",
+        "futures": "Tue 20-Oct-2020",
+        "﻿key": "11",
+        "nz": "Fri 16-Oct-2020"
+    },
+    {
+        "est": "Tue 17-Nov-2020",
+        "symbol": "Dec-20",
+        "futures": "Fri 20-Nov-2020",
+        "﻿key": "12",
+        "nz": "Wed 18-Nov-2020"
+    },
+    {
+        "est": "Wed 16-Dec-2020",
+        "symbol": "Jan-21",
+        "futures": "Mon 21-Dec-2020",
+        "﻿key": "13",
+        "nz": "Thu 17-Dec-2020"
+    }
+]

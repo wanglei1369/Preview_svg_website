@@ -1,0 +1,23 @@
+<svg width="864" height="312" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>Layer 1</title>
+  <g id="Layer_2">
+   <rect x="2.3" y="2.3" width="859.5" height="307.5" id="svg_1"/>
+   <path fill="#D2D2D2" d="m4.5,4.5l855,0l0,303l-855,0l0,-303zm-4.5,307.5l864,0l0,-312l-864,0l0,312z" id="svg_2"/>
+   <g id="svg_3">
+    <defs>
+     <rect id="SVGID_1_" y="0" width="864" height="312"/>
+     <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+      <image height="100" width="100" y="0" x="0"/>
+     </pattern>
+    </defs>
+    <clipPath id="SVGID_2_">
+     <use xlink:href="#SVGID_1_" id="svg_4"/>
+    </clipPath>
+   </g>
+  </g>
+  <g id="Layer_1"/>
+  <text fill="#ffffff" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="192.416672" y="93.731188" id="svg_26" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(1.7799037694931028,0,0,1.7799037694931028,-110.51362649910152,-72.99518847465515) ">Try Our New</text>
+  <text fill="#ffffff" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="114" y="171.900856" id="svg_27" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(4.548995494842528,0,0,4.548995494842528,-82.08548603951931,-560.540078781545) " font-weight="bold">Web Platfrom</text>
+ </g>
+</svg>

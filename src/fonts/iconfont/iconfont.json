@@ -1,0 +1,128 @@
+{
+  "id": "1388724",
+  "name": "svg",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3176804",
+      "name": "Line",
+      "font_class": "Line",
+      "unicode": "ea17",
+      "unicode_decimal": 59927
+    },
+    {
+      "icon_id": "3507171",
+      "name": "line",
+      "font_class": "line",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5634747",
+      "name": "line",
+      "font_class": "line1",
+      "unicode": "f1e6",
+      "unicode_decimal": 61926
+    },
+    {
+      "icon_id": "5524677",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10918115",
+      "name": "kakao-talk-fill",
+      "font_class": "kakao-talk-fill",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "6664128",
+      "name": "address",
+      "font_class": "address1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "198627",
+      "name": "address",
+      "font_class": "address",
+      "unicode": "e939",
+      "unicode_decimal": 59705
+    },
+    {
+      "icon_id": "630962",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "1200626",
+      "name": "apk",
+      "font_class": "apk",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "1447254",
+      "name": "pdf",
+      "font_class": "pdf",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1704656",
+      "name": "arrow-up",
+      "font_class": "arrow-up",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "2295991",
+      "name": "pdf",
+      "font_class": "pdf1",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "7197903",
+      "name": "Email",
+      "font_class": "Email",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "10928233",
+      "name": "phone",
+      "font_class": "hotelphone",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "701751",
+      "name": "android",
+      "font_class": "android",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "1017253",
+      "name": "iOS",
+      "font_class": "ios",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "3876470",
+      "name": "windows",
+      "font_class": "windows",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}

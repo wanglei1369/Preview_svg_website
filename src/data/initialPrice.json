@@ -1,0 +1,87 @@
+{
+    "EURUSD": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "USDJPY": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "GBPUSD": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "EURJPY": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "AUDUSD": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "SPX500": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "US30": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "HKG33": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "NAS100": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "XAUUSD": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "XAGUSD": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "USOIL": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "TSLA": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "AMZN": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "AAPL": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "BA": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    },
+    "MSFT": {
+        "Bid": "0",
+        "Ask": "0",
+        "Last": "0"
+    }
+}

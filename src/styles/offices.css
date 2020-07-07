@@ -1,0 +1,208 @@
+/** @format */
+
+@media (max-width: 991px) {
+    .office-desktop {
+        display: none;
+    }
+    .location-mobile {
+        border-top: 0.5px solid #727272 !important;
+    }
+    .panel-title {
+        min-height: 12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: background-position 0.2s linear;
+    }
+    .southpacific-mobile {
+        background: url(../images/offices/southpacific-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .southeastasia-mobile {
+        background: url(../images/offices/southeastasia-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .taiwan-mobile {
+        background: url(../images/offices/taiwan-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mainlandchina-mobile {
+        background: url(../images/offices/mainlandchina-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .eastasia-mobile {
+        background: url(../images/offices/eastasia-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .northamerica-mobile {
+        background: url(../images/offices/northamerica-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .active-mobile {
+        height: 152px;
+    }
+    .inactive-mobile {
+        height: 12vh;
+    }
+    .inactive-info-mobile {
+        display: none;
+    }
+    .location-name {
+        color: #ffffff;
+        margin-left: 3em;
+        z-index: 10;
+      
+    }
+    .location-detail-mobile {
+        padding: 1rem 1rem 1rem 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .office-mobile {
+        display: none;
+    }
+    .office-picker {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: 1fr;
+        /* border: 2px white solid; */
+    }
+
+    .office-picker::before {
+        content: "";
+        width: 0;
+        padding-bottom: 100%;
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+    }
+
+    .office-picker > *:first-child {
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+    }
+
+    /* Just to make the grid visible */
+
+    .office-picker > * {
+        background: rgba(0, 0, 0, 0.1);
+        /* border: 2px white solid; */
+    }
+
+    .office-picker > div {
+        height: 100%;
+        display: grid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform 0.1s linear;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    .office-picker > div:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+        /* transform: scale(0.98); */
+    }
+    .office-picker > div > .location-name {
+        margin: auto;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0;
+        z-index: 10;
+        letter-spacing: -2px;
+    }
+
+    .office-info {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        border-bottom: #0D0746 0.5px solid;
+    }
+
+    .office-map {
+        grid-area: 1 / 5 / 2 / 7;
+        min-height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto auto auto;
+        transition: background-position 0.2s linear;
+    }
+    .office-detail {
+        grid-area: 1 / 1 / 2 / 5;
+        padding: 48px 32px;
+        padding-left: 5rem;
+        cursor: pointer;
+        width: 100%;
+    }
+    .office-name {
+        margin-bottom: 32px;
+        font-weight: lighter !important;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+    }
+
+    .office-address {
+        grid-area: 1 / 1 / 2 / 6;
+    }
+    .office-contact {
+        grid-area: 1 / 6 / 2 / 13;
+    }
+
+    .overlay-golden {
+        position: relative;
+    }
+
+    .overlay-golden::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #afa351;
+        opacity: 0.3;
+        z-index: 0;
+    }
+
+    .overlay-blue {
+        position: relative;
+    }
+
+    .overlay-blue::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #0D0746;
+        opacity: 0.3;
+        z-index: 0;
+    }
+}
+
+.text-blue {
+    color: #0D0746;
+}

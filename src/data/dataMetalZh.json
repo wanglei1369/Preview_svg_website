@@ -1,0 +1,24 @@
+[
+    {
+        "leverage": "Up to 400",
+        "symbol": "黄金美元",
+        "stop": "50%",
+        "maximum": "10",
+        "hours": "GMT+2 时间 00:05-23:55 / 周一到周五",
+        "minimum": "0.01",
+        "key": "1",
+        "pip": "1 USD",
+        "size": "100 oz."
+    },
+    {
+        "leverage": "Up to 400",
+        "symbol": "白银美元",
+        "stop": "50%",
+        "maximum": "10",
+        "hours": "GMT+2 时间 00:05-23:55 / 周一到周五",
+        "minimum": "0.01",
+        "key": "2",
+        "pip": "2.5 USD",
+        "size": "2500 oz."
+    }
+]

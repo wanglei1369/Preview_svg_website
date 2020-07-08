@@ -161,16 +161,18 @@ export default function Banner() {
                             <div className="container" style={carouselTextStyle}>
                                 <div className="row banner">
                                     <div className="col-lg-12">
-                                        <h2 className="text-white text-right" style={{fontWeight: "bold"}} dir="RTL">
+                                        <h1 className="text-white text-right" style={{fontWeight: "bold"}} dir="RTL">
                                             {t("hero.heroSubtitle1")}
                                             <br />
                                             {t("hero.heroSubtitle1PreCN")}
                                             {t("hero.heroSubtitle1CN")}
                                             {t("hero.heroSubtitle2")}
-                                        </h2>
-                                        <h5 className="section-title text-white banner-title text-right" dir="RTL">
+                                        </h1>
+                                        <h4 className="section-title text-white banner-title text-right" dir="RTL">
                                             {t("hero.heroMessage")}
-                                        </h5>
+                                            {t("hero.heroMessage1")}
+                                            {t("hero.heroMessage2")}
+                                        </h4>
                                     </div>
                                     <div className="col-lg-12 col-md-12 text-right">
                                         <Link to="/external-sign-up" className="btn-grey-inverse" dir="RTL">

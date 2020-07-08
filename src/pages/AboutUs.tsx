@@ -23,15 +23,23 @@ export default function AboutUs() {
                             <div className="container">
                                 <div className="row justify-content-center mb-50">
                                     <div className="col-lg-10 text-right" dir="RTL">
-                                        {t("aboutUs.brandHistoryStory")
-                                            .split("\n")
-                                            .map((i, key) => {
-                                                return (
-                                                    <p key={key}>
-                                                        <span>{i}</span>
-                                                    </p>
-                                                )
-                                            })}
+                                        {t("aboutUs.brandHistoryStory")}
+                                        { t("aboutUs.brandHistoryStory1")}  
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory2")}    
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory3")}
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory4")}
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory5")}
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory6")}
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory7")}
+                                        <br/>
+                                        { t("aboutUs.brandHistoryStory8")}
+                                        <br/>
                                     </div>
                                 </div>
                             </div>

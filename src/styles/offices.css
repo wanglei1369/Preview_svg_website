@@ -6,6 +6,7 @@
     }
     .location-mobile {
         border-top: 0.5px solid #727272 !important;
+        
     }
     .panel-title {
         min-height: 12vh;
@@ -28,6 +29,20 @@
     }
     .taiwan-mobile {
         background: url(../images/offices/taiwan-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .arab-mobile {
+        background: url(../images/offices/arab-mobile.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .egypt-mobile {
+        background: url(../images/offices/egypt-mobile.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -77,7 +92,7 @@
     }
     .office-picker {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         grid-auto-rows: 1fr;
         /* border: 2px white solid; */
     }
@@ -172,6 +187,8 @@
 
     .overlay-golden {
         position: relative;
+        /* width:236px;
+        height:210px; */
     }
 
     .overlay-golden::before {

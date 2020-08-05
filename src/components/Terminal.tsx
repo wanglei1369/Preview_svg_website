@@ -21,13 +21,8 @@ export default function Terminal() {
                                 <div className="terminal-flex-item">
                                     <p className="text-white text-right" dir="RTL">
                                         {t("services.tradingPlatformMessage1")}
-                                        <br />
-                                        <span>
-                                            {t("services.tradingPlatformMessage2")}
-                                            {t("services.tradingPlatformMessage3")}
-                                            {t("services.tradingPlatformMessage4")}
-                                            {t("services.tradingPlatformMessage5")}
-                                        </span>
+                                        
+                                        
                                         <br />
                                         {t("services.tradingPlatformMessage6")}
                                     </p>

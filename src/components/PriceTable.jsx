@@ -367,7 +367,7 @@ export default function PriceTable() {
                 <div className="market-price-widget">
                     <div>
                         {/* <h1>{priceData}</h1> */}
-                        <p className="text-white">{t("whyCJC.advantage.aWideRangeOfProductsMessage")}</p>
+                        <p className="text-white text-center">{t("whyCJC.advantage.aWideRangeOfProductsMessage")}</p>
                     </div>
                     <div className="price-picker my-5">
                         <a

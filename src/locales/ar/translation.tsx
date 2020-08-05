@@ -28,7 +28,7 @@ export default {
             latestTechnologyPlatformMessage:
             "تتضمن منصتنا العديد من المميزات والإمكانيات. فيمكن استخدامها من سطح المكتب الخاص بك سواءً عن طريق تحميل المنصة أو من خلال متصفح الانترنت. كما أنّ منصتنا تدعم كلاً من أنظمة تشغيل مايكروسوفت  وآبل وتطبيقات آيفون وأندرويد. ونحن نسعى جاهدين لترقية منصتنا بإستمرار لتعزيز تجربة التداول للمستخدمين",
             aWideRangeOfProductsMessage:
-            "تقدم CJC مجموعة واسعة من المنتجات لعملائها. وفي الوقت الحاضر، تعد العملات الأجنبية والمعادن الثمينة ومؤشرات الأسهم وعقود الفروقات من أكثر منتجاتنا شعبية.  كما نقدم أكثر من 100 زوج من العملات المختلفة والعديد من مؤشرات الأسهم الشائعة وعقود الفروقات على النفط الخام.",
+            "نقدم مجموعه واسعة من منتجات التداول لعملائنا ، وتعد العملات الأجنبية والمعادن الثمينة ومؤشرات الأسهم وعقود الفروقات من أكثر المنتجات شعبية ، كما نقدم اكثر من ١٠٠ زوج من العملات الأجنبية المختلفه والنفط الخام ",
             NDDTradingMessage:
             "من خلال ميزة التداول دون غرفة مقاصة، ستحصل على الأسعار بشكل فوري دون أي تدخل من غرفه التداول. وهذا يضمن حصولك على أفضل الأسعار المتاحة وفي أقصر وقت ممكن",
             competitiveSpreadsAndLowTransactionCostsMessage:
@@ -57,11 +57,11 @@ export default {
         globalizationStrategyMessage2:
        ".في مرحله الصعود الدولي CJC Markets انضم إلينا في بناء استراتيجية التطوير العالمية وساعد",
         tradingPlatformTitle: "منصه لتداول",
-        tradingPlatformMessage1: "يصبح التداول مرناً ومريحاً CJC Markets مع منصة  ميتاتريدر4 و",
-        tradingPlatformMessage2: "مهما كانت خبرتك في التداول",
-        tradingPlatformMessage3: "مبتدئ",
-        tradingPlatformMessage4: "أو",
-        tradingPlatformMessage5: "خبير",
+        tradingPlatformMessage1: "يصبح التداول مرنا ومريحا ، مع منصه ميتاتريدر 4  مهما كانت خبرتك سواء كنت مبتدئ أو خبير ",
+        tradingPlatformMessage2: "",
+        tradingPlatformMessage3: "",
+        tradingPlatformMessage4: "",
+        tradingPlatformMessage5: "",
         tradingPlatformMessage6:
         ".يمكن تخصيص منصتنا بسهولة لتناسب أدق إحتياجات التدوال الخاصه بك. التنفيذ بسعر السوق والأوامر المعلقة ، التنفيذ الفوري والتداول من خلال الرسوم البيانية ,  وأوامر الوقف ,  والوقف المتحرك , والرسم البياني لحركة السعر وسجل التداول - كل هذه الأدوات تحت تصرفك",
         aWideRangeOfProducts: "مجموعة واسعة من المنتجات",
@@ -175,7 +175,7 @@ export default {
         brandHistoryStory8:
         " لقد أنشأنا مكاتب في أستراليا وكندا والصين وتايوان واليابان وتايلاند وفيتنام وماليزيا والفلبين ودول جنوب شرق آسيا الأخرى. انضم إلينا لنقوم معاً بتطوير استراتيجية CJC Markets العالمية وبناء منصة تداول احترافية متكامله وعالميه.",
         licence:
-        "إنّ هيئة الأسواق المالية هي الوكالة الحكومية النيوزيلندية المسؤولة عن تطبيق قوانين الأوراق المالية والتقارير المالية وقانون الشركات من حيث ملائمتها للخدمات المالية وأسواق الأوراق المالية. كما تنظم هيئة الأسواق المالية أيضاً أسواق الأوراق المالية والمستشارين الماليين والوسطاء والمدققين والأمناء والمصدرين . ولدى سي جي سي ترخيصاً لإصدار المشتقات المالية صادر عن هيئة الأسواق المالية، كما أننا نتلقى أيضاً  تدقيقاً منتظماً للحسابات المالية ومراجعة لشروط الالتزام بالقوانين من قبل وكالات خارجية مستقلة. ولدينا رقم التسجيل (569807) الخاص بنا في سجل مزودي الخدمات المالية. كما وتمتلك سي جي سي أيضاً رخصة إصدار للمشتقات المالية صادرة عن فينتراك (مركز تحليل المعاملات المالية والتقارير في كندا) – الخدمات المالية في كندا، برقم تسجيل M20571687M20571687",
+        "إنّ هيئة الأسواق المالية هي الوكالة الحكومية النيوزلاندية المسؤولة عن تطبيق قوانين الأوراق المالية والتقارير المالية وقانون الشركات من حيث ملائمتها للخدمات المالية وأسواق الأوراق المالية. كما تنظم هيئة الأسواق المالية أيضاً أسواق الأوراق المالية والمستشارين الماليين والوسطاء والمدققين والأمناء والمصدرين . ولدى سي جي سي ترخيصاً لإصدار المشتقات المالية صادر عن هيئة الأسواق المالية، كما أننا نتلقى أيضاً  تدقيقاً منتظماً للحسابات المالية ومراجعة لشروط الالتزام بالقوانين من قبل وكالات خارجية مستقلة. ولدينا رقم التسجيل (569807) الخاص بنا في سجل مزودي الخدمات المالية. كما وتمتلك سي جي سي أيضاً رخصة إصدار للمشتقات المالية صادرة عن فينتراك (مركز تحليل المعاملات المالية والتقارير في كندا) – الخدمات المالية في كندا، برقم تسجيل M20571687M20571687",
         checkLicence: "تحقق من ترخيصنا على الموقع الرسمي لهيئة الأسواق المالية النيوزلاندية FMA ",
     },
     qna: {
@@ -394,110 +394,90 @@ export default {
         }, 
         aboutus: { 
             Title: "من نحن | CJC Markets", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
         }, 
         whycjc: { 
-            Title: "WHY CJC | CJC Markets",
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-            Keywords:"CJC Markets；", 
+            Title: "لماذا |CJC Markets ",
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
+            Keywords:"CJC Markets；", 
         },
         forex: { 
-            Title: "FOREX TRADING | CJC Markets", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "تداول الفوركس | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
         },
         oil: { 
-            Title: "COMMODITY TRADING | CJC Market", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
+            Title: "تداول السلع | CJC Market", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
+            Keywords:"CJC Markets；", 
         },
         metal: { 
 
-            Title: "METALS TRADING | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "تداول المعادن | CJC Markets",
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 
 
         indices: { 
 
-            Title: " EQUITY INDICES TRADING | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: " تداول مؤشرات الاسهم | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 
 
         usshare: { 
 
-            Title: "US SHARES | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "الأسهم الأمريكية | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 
         eurshare: { 
 
-            Title: "EUR SHARES | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "الأسهم الأوربية | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
     
         }, 
         asiashare: { 
 
-            Title: "ASIA SHARES | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "اسهم الأسواق الأسيوية| CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
     
         }, 
 
         cryptcfd: { 
 
-            Title: " CRYPTOCURRENCY CFDs | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: " عقود مقابل الفروقات على العملات المشفرة | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 
 
         cooperate: { 
 
-            Title: "WORK WITH US | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "الشراكة| CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 
 
         paltform: { 
 
-            Title: "PLATFORM | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "منصة | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 
 
         help: { 
 
-            Title: "HELP | CJC Markets", 
-
-            Description: "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
+            Title: "مساعدة | CJC Markets", 
+            Description: "الوصف: CJC Markets هي مؤسسة مالية عالمية رائدة تقدم للعملاء فرصة التداول في الأسواق المالية عن طريق العقود مقابل الفروقات. وتعطي CJC Markets أهمية كبيرة للتوسع العالمي  وقامت بالتخطيط بشكل نشيط لاستراتيجيتها التطوير والتوسع العالمي .  وقد حصلت CJC Markets على رخصة إصدار مشتقات مالية صادرة عن هيئة الأسواق المالية النيوزيلندية، كما أنها تتلقى عمليات تدقيق مالي ومراجعة لشروط الامتثال والالتزام بشكل دوري من قبل وكالات خارجية مستقلة. فهي توفر منصة متكاملة منظمة ومرخصة لتداول عقود الفروقات", 
             Keywords:"CJC Markets；", 
 
         }, 

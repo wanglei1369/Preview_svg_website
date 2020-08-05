@@ -9,6 +9,8 @@ import northAmericaImg from "../images/offices/cjc-office-northamerica.jpg"
 import southEastAsiaImg from "../images/offices/cjc-office-southeastasia.jpg"
 import southPacificImg from "../images/offices/cjc-office-southpacific.jpg"
 import eastAsiaImg from "../images/offices/cjc-office-eastasia.jpg"
+import arabImg from "../images/offices/cjc-office-arab.png"
+import egyptImg from "../images/offices/cjc-office-egypt.png"
 import aucklandMap from "../images/offices/map/auckland.jpg"
 import bangkokMap from "../images/offices/map/bangkok.jpg"
 import beijingMap from "../images/offices/map/beijing.jpg"
@@ -22,6 +24,8 @@ import shanghaiMap from "../images/offices/map/shanghai.jpg"
 import sydneyMap from "../images/offices/map/sydney.jpg"
 import taichungMap from "../images/offices/map/taichung.jpg"
 import torontoMap from "../images/offices/map/toronto.jpg"
+import arabMap from "../images/offices/map/arab.png"
+import egyptMap from "../images/offices/map/egypt.png"
 import thaiLineQRCode from "../images/offices/thai-line.jpg"
 import {useTranslation} from "react-i18next"
 
@@ -105,6 +109,21 @@ function locationBlock(location: string) {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
     }
+
+    const arabMapBgMap = {
+        backgroundImage: `url(${arabMap})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+    }
+    
+    const egyptMapBgMap = {
+        backgroundImage: `url(${egyptMap})`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+    }
+
     if (location == "southpacific") {
         return (
             <>
@@ -553,6 +572,72 @@ function locationBlock(location: string) {
                 </div>
             </>
         )
+    }  
+    if (location == "egypt") {
+        return (
+            <>
+                <div className="office-info">
+                    <div className="office-detail">
+                        <h2 className="office-name">same where of egypt</h2>
+                        <div className="parent">
+                            <div className="office-address">
+                                <p>
+                                    <span className="iconfont iconfont-custom icon-address"></span>No. 270, Zhongming S.
+                                    Rd., West Dist., Taichung City 403, Taiwan (R.O.C.)
+                                </p>
+                            </div>
+                            <div className="office-contact">
+                                <ul className="list-unstyled">
+                                    <li>
+                                        <p className="current-city__contact-info">
+                                            <span className="iconfont iconfont-custom icon-Email"></span>
+                                            support-taichung@cjcmarkets-svg.com
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                        href="https://www.openstreetmap.org/way/329630327"
+                        className="office-map overlay-golden"
+                        style={egyptMapBgMap}></a>
+                </div>
+            </>
+        )
+    }
+    if (location == "arab") {
+        return (
+            <>
+                <div className="office-info">
+                    <div className="office-detail">
+                        <h2 className="office-name">some where of arab</h2>
+                        <div className="parent">
+                            <div className="office-address">
+                                <p>
+                                    <span className="iconfont iconfont-custom icon-address"></span>No. 270, Zhongming S.
+                                    Rd., West Dist., Taichung City 403, Taiwan (R.O.C.)
+                                </p>
+                            </div>
+                            <div className="office-contact">
+                                <ul className="list-unstyled">
+                                    <li>
+                                        <p className="current-city__contact-info">
+                                            <span className="iconfont iconfont-custom icon-Email"></span>
+                                            support-taichung@cjcmarkets-svg.com
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                        href="https://www.openstreetmap.org/way/329630327"
+                        className="office-map overlay-golden"
+                        style={arabMapBgMap}></a>
+                </div>
+            </>
+        )
     }
 }
 
@@ -566,6 +651,8 @@ export default function Office() {
         "inactive-mobile",
         "inactive-mobile",
         "inactive-mobile",
+        "inactive-mobile",
+        "inactive-mobile",
     ])
     const [activeInfoStatus, setActiveInfoStatus] = useState([
         "active-info-mobile",
@@ -574,25 +661,42 @@ export default function Office() {
         "inactive-info-mobile",
         "inactive-info-mobile",
         "inactive-info-mobile",
+        "inactive-info-mobile",
+        "inactive-info-mobile",
     ])
     const southPacificBgImg = {
         backgroundImage: `url(${southPacificImg})`,
+
     }
     const southEastAsiaBgImg = {
         backgroundImage: `url(${southEastAsiaImg})`,
+ 
     }
     const northAmericaBgImg = {
         backgroundImage: `url(${northAmericaImg})`,
+
     }
     const mainlandchinaBgImg = {
         backgroundImage: `url(${mainlandchinaImg})`,
+
     }
     const eastAsiaBgImg = {
         backgroundImage: `url(${eastAsiaImg})`,
+
     }
     const taiwanBgImg = {
         backgroundImage: `url(${taiwanImg})`,
+
     }
+    const arabBgImg = {
+        backgroundImage: `url(${arabImg})`,
+
+    }
+    const egyptBgImg = {
+        backgroundImage: `url(${egyptImg})`,
+
+    }
+
     const changeLocation = (location: string) => {
         if (location == "southpacific") {
             setOfficeLocation("southpacific")
@@ -613,6 +717,16 @@ export default function Office() {
         if (location == "taiwan") {
             setOfficeLocation("taiwan")
         }
+
+        if (location == "egypt") {
+            setOfficeLocation("egypt")
+        }
+
+        if (location == "arab") {
+            setOfficeLocation("arab")
+        }
+        
+         
     }
 
     const mobileChangeLocation = (location: number) => {
@@ -662,6 +776,18 @@ export default function Office() {
                         style={mainlandchinaBgImg}
                         onClick={() => changeLocation("mainlandchina")}>
                         <span className="location-name text-blue">{t("map.china")}</span>
+                    </div>
+                    <div
+                        className="overlay-blue"
+                        style={arabBgImg}
+                        onClick={() => changeLocation("arab")}>
+                        <span className="location-name text-white">{t("map.arab")}</span>
+                    </div>
+                    <div
+                        className="overlay-golden"
+                        style={egyptBgImg}
+                        onClick={() => changeLocation("egypt")}>
+                        <span className="location-name text-blue">{t("map.egypt")}</span>
                     </div>
                 </div>
                 <div>{locationBlock(officeLocation)}</div>
@@ -981,6 +1107,54 @@ export default function Office() {
                                     <p className="current-city__contact-info">
                                         <span className="iconfont iconfont-custom icon-Email"></span>
                                         support-bangkok@cjcmarkets-svg.com
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="location-mobile" onClick={() => mobileChangeLocation(6)}>
+                    <div className={`panel-title arab-mobile ${activeStatus[6]}`}>
+                        <span className="location-name">{t("map.arab")}</span>
+                    </div>
+                    <div className={`location-detail-mobile ${activeInfoStatus[6]}`}>
+                        <div className="office-address-mobile">
+                            <p>
+                                <span className="iconfont iconfont-custom icon-address"></span>
+                                1402/227 Elizabeth St, Sydney, NSW 2000
+                            </p>
+                        </div>
+                        <div className="office-contact-mobile">
+                            <ul className="list-unstyled">
+                                <li>
+                                    <p className="current-city__contact-info">
+                                        <span className="iconfont iconfont-custom icon-Email"></span>
+                                        support-sydney@cjcmarkets-svg.com
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="location-mobile" onClick={() => mobileChangeLocation(7)}>
+                    <div className={`panel-title egypt-mobile ${activeStatus[7]}`}>
+                        <span className="location-name">{t("map.egypt")}</span>
+                    </div>
+                    <div className={`location-detail-mobile ${activeInfoStatus[7]}`}>
+                        <div className="office-address-mobile">
+                            <p>
+                                <span className="iconfont iconfont-custom icon-address"></span>
+                                1402/227 Elizabeth St, Sydney, NSW 2000
+                            </p>
+                        </div>
+                        <div className="office-contact-mobile">
+                            <ul className="list-unstyled">
+                                <li>
+                                    <p className="current-city__contact-info">
+                                        <span className="iconfont iconfont-custom icon-Email"></span>
+                                        support-sydney@cjcmarkets-svg.com
                                     </p>
                                 </li>
                             </ul>

@@ -931,6 +931,13 @@ button {
     display: block;
 }
 
+@media (min-width: 991px) {
+    .search-form.open {
+        display: none;
+    }
+}
+
+
 .search-form .form-control {
     background: transparent;
     border: 1px solid #e5e5e5;

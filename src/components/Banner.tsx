@@ -9,6 +9,7 @@ import {Carousel} from "react-responsive-carousel"
 import Modal from "./Modal"
 import cnBannerImg from "../images/banner/cn-banner.jpg"
 import cnBannerIBImg from "../images/banner/cn-ibbanner.jpg"
+import cnBannerTAImg from "../images/banner/cn-tabanner.jpeg"
 import msBannerImg from "../images/banner/ms-banner.jpg"
 import msBannerImg2 from "../images/banner/ms-banner2.jpg"
 import {Link} from "react-router-dom"
@@ -34,6 +35,14 @@ export default function Banner() {
     }
     const cnBannerIbImgStyle: CSSProperties = {
         background: `url(${cnBannerIBImg})`,
+        backgroundPosition: "center center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        minHeight: "100vh",
+        maxHeight: "100vh",
+    }
+    const cnBannerTaImgStyle: CSSProperties = {
+        background: `url(${cnBannerTAImg})`,
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -70,6 +79,28 @@ export default function Banner() {
                         showStatus={false}
                         showThumbs={false}
                         interval={6000}>
+                        <section className="section blur-bgimage" style={cnBannerTaImgStyle}>
+                            <div className="container" style={carouselTextStyle}>
+                                <div className="row banner">
+                                    <div className="col-lg-12 text-left">
+                                        <h2 className="text-white" style={{fontWeight: "bold"}}>
+                                        交易保险
+                                        </h2>
+                                        {/* <h4 className="text-cream mb-20">2020年3月1日-2020年6月1日</h4> */}
+                                        <h4 className="text-white mb-20">
+                                        为您的交易保驾护航
+                                            
+                                        </h4>
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 text-left">
+                                        <Link to="/promotionta-cn" className="btn-outlinebn">
+                                            了解活动细则
+                                        </Link>
+                                        <p className="text-white">本次活动仅限中国大陆地区客户参与</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                         <section className="section blur-bgimage" style={cnBannerImgStyle}>
                             <div className="container" style={carouselTextStyle}>
                                 <div className="row banner">

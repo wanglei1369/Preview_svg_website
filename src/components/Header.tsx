@@ -14,7 +14,7 @@ function HeaderComponent() {
     const [dropdownProductsStatus, setDropdownProductsStatus] = useState("dropdown-menu")
     const [dropdownPlatformsStatus, setDropdownPlatformsStatus] = useState("dropdown-menu")
     const [dropdownLoginStatus, setDropdownLoginStatus] = useState("dropdown-menu")
-    const [dropdownI18nStatus, setDropdownI18nStatus] = useState("dropdown-menu")
+    const [dropdownI18nStatus, setDropdownI18nStatus] = useState("dropdown-menu-language-bar")
     const [searchFormStatus, setSearchFormStatus] = useState("search-form")
     const [ariaExpanded, setAriaExpanded] = useState(false)
     const [navBackground, setNavBackground] = useState(false)
@@ -98,10 +98,10 @@ function HeaderComponent() {
 
     const handleI18nCollapse = () => {
         if (dropdownI18nStatus.includes("show")) {
-            setDropdownI18nStatus("dropdown-menu")
+            setDropdownI18nStatus("dropdown-menu-language-bar")
             setAriaExpanded(false)
         } else {
-            setDropdownI18nStatus("dropdown-menu show")
+            setDropdownI18nStatus("dropdown-menu-language-bar show")
             setAriaExpanded(true)
             setDropdownServicesStatus("dropdown-menu")
             setDropdownPlatformsStatus("dropdown-menu")
@@ -111,17 +111,20 @@ function HeaderComponent() {
     }
     const handleSearchForm = () => {
         searchFormStatus.includes("open") ? setSearchFormStatus("search-form") : setSearchFormStatus("search-form open")
+        // setSearchFormStatus("search-form")
     }
 
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng)
         handleSearchForm()
     }
+
     const headers = (languageCode: string) => {
-    if (languageCode.includes("ko")||languageCode.includes("th")) {
+    if (languageCode.includes("ko")||languageCode.includes("th")|| languageCode.includes("jp")) {
             return (
                 <>
                     <header className={`nav-fixed-top ${navBackground ? "nav-dark box-shadow" : "nav-light"}`}>
+                        
                         <div className="navigation">
                             <div className="container-lg">
                                 <nav className="navbar navbar-expand-lg nav-flex">
@@ -282,30 +285,92 @@ function HeaderComponent() {
                                                     &#127759;
                                                 </span>
                                                 <div className={dropdownI18nStatus}>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("zh")}>
-                                                        简体中文
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("tw")}>
-                                                        繁體中文
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("en")}>
-                                                        English
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("vi")}>
-                                                        Tiếng Việt
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ko")}>
-                                                        한국어
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("th")}>
-                                                        ภาษาไทย
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ms")}>
-                                                        Bahasa Melayu
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ar")}>
-                                                        عربى    
-                                                    </a>
+                                                <div className="l-language-div">     
+                                                        {/* <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("zh")}>
+                                                            <div className="language-bar-dropdown-item-bg1 zh"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">简体中文</span>                   
+                                                        </div>   
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("tw")}>
+                                                            <div className="language-bar-dropdown-item-bg1 hk"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">繁體中文</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("en")}>
+                                                            <div className="language-bar-dropdown-item-bg1 nz"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">English</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("vi")}>
+                                                            <div className="language-bar-dropdown-item-bg1 vn"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Tiếng Việt</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ko")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ke"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">한국어</span>                   
+                                                        </div>                                                                                                    */}
+                                                        <div  className="language-bar-dropdown-item" onClick={() => changeLanguage("zh")}>
+                                                            <span className="language-bar-dropdown-item-txt zh-f">简体中文</span>
+                                                            <div className="language-bar-dropdown-item-bg zh"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("tw")} >
+                                                            <span className="language-bar-dropdown-item-txt">繁體中文</span>
+                                                            <div className="language-bar-dropdown-item-bg hk"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("en")}>
+                                                            <span className="language-bar-dropdown-item-txt">English</span>
+                                                            <div className="language-bar-dropdown-item-bg nz"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("vi")}>
+                                                            <span className="language-bar-dropdown-item-txt">Tiếng Việt</span>
+                                                            <div className="language-bar-dropdown-item-bg vn"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ko")}>
+                                                            <span className="language-bar-dropdown-item-txt">한국어</span>
+                                                            <div className="language-bar-dropdown-item-bg ke"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="r-language-div">
+                                                        {/* <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("th")}>
+                                                            <div className="language-bar-dropdown-item-bg1 thai"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">ภาษาไทย</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ms")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ma"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Bahasa Melayu</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("id")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ind"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Bahasa Indonesia</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ar")}>
+                                                            <div className="language-bar-dropdown-item-bg1 eg"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">عربى</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1">
+                
+                                                        </div>   */}
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("th")}>                                                          
+                                                            <span className="language-bar-dropdown-item-txt">ภาษาไทย</span>
+                                                            <div className="language-bar-dropdown-item-bg thai"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ms")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">Bahasa Melayu</span>
+                                                            <div className="language-bar-dropdown-item-bg ma"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("id")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">Bahasa Indonesia</span>
+                                                            <div className="language-bar-dropdown-item-bg ind"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ar")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">عربى </span>
+                                                            <div className="language-bar-dropdown-item-bg eg"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("jp")}>
+                                                            <span className="language-bar-dropdown-item-txt">日本語 </span>
+                                                            <div className="language-bar-dropdown-item-bg jp"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li className="nav-item">
@@ -365,8 +430,18 @@ function HeaderComponent() {
                                             </h6>
                                         </div>
                                         <div className="col-lg-2">
+                                            <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("id")}>
+                                            Bahasa Indonesia
+                                            </h6>
+                                        </div>
+                                        <div className="col-lg-2">
                                             <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("ar")}>
                                                 عربى    
+                                            </h6>
+                                        </div>
+                                        <div className="col-lg-2">
+                                            <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("jp")}>
+                                            日本語  
                                             </h6>
                                         </div>
                                     </div>
@@ -398,30 +473,93 @@ function HeaderComponent() {
                                                     &#127759;
                                                 </span>
                                                 <div className={dropdownI18nStatus}>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("zh")}>
-                                                        简体中文
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("tw")}>
-                                                        繁體中文
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("en")}>
-                                                        English
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("vi")}>
-                                                        Tiếng Việt
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ko")}>
-                                                        한국어
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("th")}>
-                                                        ภาษาไทย
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ms")}>
-                                                        Bahasa Melayu
-                                                    </a>
-                                                    <a href="" className="dropdown-item text-right" onClick={() => changeLanguage("ar")} dir="RTL">
-                                                        عربى    
-                                                    </a>
+                                                <div className="l-language-div">     
+                                                        {/* <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("zh")}>
+                                                            <div className="language-bar-dropdown-item-bg1 zh"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">简体中文</span>                   
+                                                        </div>   
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("tw")}>
+                                                            <div className="language-bar-dropdown-item-bg1 hk"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">繁體中文</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("en")}>
+                                                            <div className="language-bar-dropdown-item-bg1 nz"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">English</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("vi")}>
+                                                            <div className="language-bar-dropdown-item-bg1 vn"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Tiếng Việt</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ko")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ke"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">한국어</span>                   
+                                                        </div>                                                                                                    */}
+                                                        <div  className="language-bar-dropdown-item" onClick={() => changeLanguage("zh")}>
+                                                            <span className="language-bar-dropdown-item-txt zh-f">简体中文</span>
+                                                            <div className="language-bar-dropdown-item-bg zh"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("tw")} >
+                                                            <span className="language-bar-dropdown-item-txt">繁體中文</span>
+                                                            <div className="language-bar-dropdown-item-bg hk"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("en")}>
+                                                            <span className="language-bar-dropdown-item-txt">English</span>
+                                                            <div className="language-bar-dropdown-item-bg nz"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("vi")}>
+                                                            <span className="language-bar-dropdown-item-txt">Tiếng Việt</span>
+                                                            <div className="language-bar-dropdown-item-bg vn"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ko")}>
+                                                            <span className="language-bar-dropdown-item-txt">한국어</span>
+                                                            <div className="language-bar-dropdown-item-bg ke"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="r-language-div">
+                                                        {/* <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("th")}>
+                                                            <div className="language-bar-dropdown-item-bg1 thai"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">ภาษาไทย</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ms")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ma"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Bahasa Melayu</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("id")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ind"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Bahasa Indonesia</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ar")}>
+                                                            <div className="language-bar-dropdown-item-bg1 eg"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">عربى</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1">
+                
+                                                        </div>   */}
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("th")}>                                                          
+                                                            <span className="language-bar-dropdown-item-txt">ภาษาไทย</span>
+                                                            <div className="language-bar-dropdown-item-bg thai"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ms")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">Bahasa Melayu</span>
+                                                            <div className="language-bar-dropdown-item-bg ma"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("id")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">Bahasa Indonesia</span>
+                                                            <div className="language-bar-dropdown-item-bg ind"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ar")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">عربى </span>
+                                                            <div className="language-bar-dropdown-item-bg eg"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item">
+                                                            <span className="language-bar-dropdown-item-txt">日本語 </span>
+                                                            <div className="language-bar-dropdown-item-bg jp"></div>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </li>
                                             <li className="nav-item dropdown">
@@ -627,8 +765,18 @@ function HeaderComponent() {
                                             </h6>
                                         </div>
                                         <div className="col-lg-2">
+                                            <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("id")}>
+                                            Bahasa Indonesia
+                                            </h6>
+                                        </div>
+                                        <div className="col-lg-2">
                                             <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("ar")}>
                                                 عربى    
+                                            </h6>
+                                        </div>
+                                        <div className="col-lg-2">
+                                            <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("jp")}>
+                                            日本語  
                                             </h6>
                                         </div>
                                     </div>
@@ -806,31 +954,94 @@ function HeaderComponent() {
                                                     onClick={handleI18nCollapse}>
                                                     &#127759;
                                                 </span>
+                                          
                                                 <div className={dropdownI18nStatus}>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("zh")}>
-                                                        简体中文
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("tw")}>
-                                                        繁體中文
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("en")}>
-                                                        English
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("vi")}>
-                                                        Tiếng Việt
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ko")}>
-                                                        한국어
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("th")}>
-                                                        ภาษาไทย
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ms")}>
-                                                        Bahasa Melayu
-                                                    </a>
-                                                    <a href="" className="dropdown-item" onClick={() => changeLanguage("ar")}>
-                                                        عربى 
-                                                    </a>
+                                                    <div className="l-language-div">     
+                                                        {/* <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("zh")}>
+                                                            <div className="language-bar-dropdown-item-bg1 zh"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">简体中文</span>                   
+                                                        </div>   
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("tw")}>
+                                                            <div className="language-bar-dropdown-item-bg1 hk"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">繁體中文</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("en")}>
+                                                            <div className="language-bar-dropdown-item-bg1 nz"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">English</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("vi")}>
+                                                            <div className="language-bar-dropdown-item-bg1 vn"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Tiếng Việt</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ko")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ke"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">한국어</span>                   
+                                                        </div>                                                                                                    */}
+                                                        <div  className="language-bar-dropdown-item" onClick={() => changeLanguage("zh")}>
+                                                            <span className="language-bar-dropdown-item-txt zh-f">简体中文</span>
+                                                            <div className="language-bar-dropdown-item-bg zh"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("tw")} >
+                                                            <span className="language-bar-dropdown-item-txt">繁體中文</span>
+                                                            <div className="language-bar-dropdown-item-bg hk"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("en")}>
+                                                            <span className="language-bar-dropdown-item-txt">English</span>
+                                                            <div className="language-bar-dropdown-item-bg nz"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("vi")}>
+                                                            <span className="language-bar-dropdown-item-txt">Tiếng Việt</span>
+                                                            <div className="language-bar-dropdown-item-bg vn"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ko")}>
+                                                            <span className="language-bar-dropdown-item-txt">한국어</span>
+                                                            <div className="language-bar-dropdown-item-bg ke"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="r-language-div">
+                                                        {/* <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("th")}>
+                                                            <div className="language-bar-dropdown-item-bg1 thai"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">ภาษาไทย</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ms")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ma"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Bahasa Melayu</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("id")}>
+                                                            <div className="language-bar-dropdown-item-bg1 ind"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">Bahasa Indonesia</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1" onClick={() => changeLanguage("ar")}>
+                                                            <div className="language-bar-dropdown-item-bg1 eg"></div>
+                                                            <span className="language-bar-dropdown-item-txt1">عربى</span>                   
+                                                        </div>  
+                                                        <div className="language-bar-dropdown-item1">
+                
+                                                        </div>   */}
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("th")}>                                                          
+                                                            <span className="language-bar-dropdown-item-txt">ภาษาไทย</span>
+                                                            <div className="language-bar-dropdown-item-bg thai"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ms")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">Bahasa Melayu</span>
+                                                            <div className="language-bar-dropdown-item-bg ma"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("id")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">Bahasa Indonesia</span>
+                                                            <div className="language-bar-dropdown-item-bg ind"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("ar")}>
+                                                            
+                                                            <span className="language-bar-dropdown-item-txt">عربى </span>
+                                                            <div className="language-bar-dropdown-item-bg eg"></div>
+                                                        </div>
+                                                        <div className="language-bar-dropdown-item" onClick={() => changeLanguage("jp")}>
+                                                            <span className="language-bar-dropdown-item-txt">日本語 </span>
+                                                            <div className="language-bar-dropdown-item-bg jp"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li className="nav-item">
@@ -890,8 +1101,18 @@ function HeaderComponent() {
                                             </h6>
                                         </div>
                                         <div className="col-lg-2">
+                                            <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("id")}>
+                                            Bahasa Indonesia
+                                            </h6>
+                                        </div>
+                                        <div className="col-lg-2">
                                             <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("ar")}>
                                                 عربى  
+                                            </h6>
+                                        </div>
+                                        <div className="col-lg-2">
+                                            <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("jp")}>
+                                            日本語  
                                             </h6>
                                         </div>
                                     </div>

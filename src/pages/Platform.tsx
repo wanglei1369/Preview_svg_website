@@ -1,12 +1,12 @@
 /** @format */
 
-import React, {useState} from "react"
+import React, { useState } from "react"
 import "../components/i18n"
-import {Helmet} from "react-helmet"
-import {useTranslation} from "react-i18next"
+import { Helmet } from "react-helmet"
+import { useTranslation } from "react-i18next"
 import LayoutSecondary from "../layouts/layoutSecondary"
 import bannerImg from "../images/platform/banner.jpg"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import ReactPlayer from "react-player"
 import QRCode from "qrcode.react"
 import svgApk from "../images/platform/apk.svg"
@@ -31,13 +31,13 @@ const VideoComponent = (languageCode: string) => {
     if (languageCode.includes("zh")) {
         return (
             <>
-                <div className="text-center" style={{textAlign: "center"}}>
+                <div className="text-center" style={{ textAlign: "center" }}>
                     <ReactPlayer
                         url="/media/videos/svg-android-cn.mp4"
                         playing={false}
                         controls={true}
                         width={500}
-                        style={{textAlign: "center"}}
+                        style={{ textAlign: "center" }}
                     />
                 </div>
             </>
@@ -149,7 +149,7 @@ const DownloadBadgeWindows = (languageCode: string) => {
     if (languageCode.includes("zh")) {
         return (
             <>
-                <Link to="/platform-download/goto/windows">
+                <Link to="/platform-download/goto/windows-zh">
                     <img
                         src={badgeWinZh}
                         alt="logo of MT4 Windows"
@@ -171,7 +171,7 @@ const DownloadBadgeWindows = (languageCode: string) => {
                 </Link>
             </>
         )
-    } 
+    }
     else {
         return (
             <>
@@ -199,8 +199,8 @@ const DownloadBadgeMac = (languageCode: string) => {
                 </Link>
             </>
         )
-    } 
-    if (languageCode.includes("ar")){
+    }
+    if (languageCode.includes("ar")) {
         return (
             <>
                 <Link to="/platform-download/goto/mac">
@@ -212,7 +212,7 @@ const DownloadBadgeMac = (languageCode: string) => {
                 </Link>
             </>
         )
-    }else {
+    } else {
         return (
             <>
                 <Link to="/platform-download/goto/mac">
@@ -228,13 +228,13 @@ const DownloadBadgeMac = (languageCode: string) => {
 }
 
 const iPhone = (t: any, currentLang: string) => {
-    if (currentLang.includes("ar")){
+    if (currentLang.includes("ar")) {
         return (
             <>
                 <h4 className="mb-30" dir="RTL">
                     <b>{t("platform.iphoneTitle")}</b>
                 </h4>
-    
+
                 <div className="bg-gray p-5 mb-60">
                     <div className="row justify-content-center mb-10">
                         <div className="col-lg-4 text-right align-bottom mb-20">
@@ -256,7 +256,7 @@ const iPhone = (t: any, currentLang: string) => {
                                     })}
                             </>
                         </div>
-    
+
                         <div className="col-lg-12 text-left">
                             <h5 className="text-highlight text-right" dir="RTL">{t("platform.iphoneQuoteTitle")}</h5>
                             <>
@@ -293,13 +293,13 @@ const iPhone = (t: any, currentLang: string) => {
                 </div>
             </>
         )
-    }else{
+    } else {
         return (
             <>
                 <h4 className="mb-30">
                     <b>{t("platform.iphoneTitle")}</b>
                 </h4>
-    
+
                 <div className="bg-gray p-5 mb-60">
                     <div className="row justify-content-center mb-10">
                         <div className="col-lg-4 text-left align-bottom mb-20">
@@ -321,7 +321,7 @@ const iPhone = (t: any, currentLang: string) => {
                                     })}
                             </>
                         </div>
-    
+
                         <div className="col-lg-12 text-left">
                             <h5 className="text-highlight">{t("platform.iphoneQuoteTitle")}</h5>
                             <>
@@ -360,10 +360,10 @@ const iPhone = (t: any, currentLang: string) => {
         )
     }
 }
-    
+
 
 const iPad = (t: any, currentLang: string) => {
-    if (currentLang.includes("ar")){
+    if (currentLang.includes("ar")) {
         return (
             <>
                 <h4 className="mb-30">
@@ -411,7 +411,7 @@ const iPad = (t: any, currentLang: string) => {
                 </div>
             </>
         )
-    }else{
+    } else {
         return (
             <>
                 <h4 className="mb-30">
@@ -463,7 +463,7 @@ const iPad = (t: any, currentLang: string) => {
 }
 
 const android = (t: any, currentLang: string) => {
-    if (currentLang.includes("ar")){
+    if (currentLang.includes("ar")) {
         return (
             <>
                 <h4 className="mb-30">
@@ -484,15 +484,15 @@ const android = (t: any, currentLang: string) => {
                                     src={svgApk}
                                     alt="logo of Android APK"
                                     className="img-fluid w-100"
-                                    style={{color: "#007bff"}}
+                                    style={{ color: "#007bff" }}
                                 />
                                 <p className="text-dark text-right">{t("platform.apkDownload")}</p>
                             </a>
                         </div>
                         <div className="col-lg-3 text-center">
                             <QRCode
-                                //value="https://www.cjcmarkets-svg.com/PromotionIB-CN"
-                                value="https://cjcmarkets-svg.com/media/installer/metatrader4.apk"
+                                //value="https://www.cjcmarkets-svg.com/Promotionta-CN"
+                                value="https://cjcmarkets-global.com/media/installer/metatrader4.apk"
                                 renderAs="svg"
                                 fgColor="#0D0746"
                             />
@@ -531,7 +531,7 @@ const android = (t: any, currentLang: string) => {
                 </div>
             </>
         )
-    }else{
+    } else if(currentLang.includes("zh")){
         return (
             <>
                 <h4 className="mb-30">
@@ -552,7 +552,74 @@ const android = (t: any, currentLang: string) => {
                                     src={svgApk}
                                     alt="logo of Android APK"
                                     className="img-fluid w-100"
-                                    style={{color: "#007bff"}}
+                                    style={{ color: "#007bff" }}
+                                />
+                                <p className="text-dark">{t("platform.apkDownload")}</p>
+                            </a>
+                        </div>
+                        <div className="col-lg-3 text-center">
+                            <QRCode                                
+                                value="https://download.cjcmarkets-global.com/metatrader4.apk"
+                                renderAs="svg"
+                                fgColor="#0D0746"
+                            />
+                        </div>
+                        <div className="col-lg-8 text-center">
+                            <>
+                                {t("platform.androidMessage")
+                                    .split("\n")
+                                    .map((i: React.ReactNode, key: string | number | undefined) => {
+                                        return (
+                                            <div key={key}>
+                                                <p className="text-dark text-left">{i}</p>
+                                                <br />
+                                            </div>
+                                        )
+                                    })}
+                            </>
+                        </div>
+
+                        <div className="col-lg-12 text-left">
+                            <h5 className="text-highlight">{t("platform.androidQuoteTitle")}</h5>
+                            <>
+                                {t("platform.androidQuoteMessage")
+                                    .split("\n")
+                                    .map((i: React.ReactNode, key: string | number | undefined) => {
+                                        return (
+                                            <div key={key}>
+                                                <p className="text-dark text-left">{i}</p>
+                                                <br />
+                                            </div>
+                                        )
+                                    })}
+                            </>
+                        </div>
+                    </div>
+                </div>
+            </>
+        )
+    }else {
+        return (
+            <>
+                <h4 className="mb-30">
+                    <b>{t("platform.androidTitle")}</b>
+                </h4>
+
+                <div className="bg-gray p-5 mb-60">
+                    <div className="col-lg-6 text-center mb-30">{VideoComponent(currentLang)}</div>
+                    <div className="row justify-content-center mb-10">
+                        <div className="col-lg-4 text-left align-bottom mb-20">
+                            <Link to="/platform-download/goto/android" className="align-bottom">
+                                {DownloadBadgeAndroid(currentLang)}
+                            </Link>
+                        </div>
+                        <div className="col-lg-3 text-left">
+                            <a href="/media/installer/metatrader4.apk">
+                                <img
+                                    src={svgApk}
+                                    alt="logo of Android APK"
+                                    className="img-fluid w-100"
+                                    style={{ color: "#007bff" }}
                                 />
                                 <p className="text-dark">{t("platform.apkDownload")}</p>
                             </a>
@@ -602,7 +669,7 @@ const android = (t: any, currentLang: string) => {
     }
 }
 const mac = (t: any, currentLang: string) => {
-    if (currentLang.includes("ar")){
+    if (currentLang.includes("ar")) {
         return (
             <>
                 <h4 className="mb-30">
@@ -633,8 +700,8 @@ const mac = (t: any, currentLang: string) => {
                     </div>
                 </div>
             </>
-        )        
-    }else{
+        )
+    } else {
         return (
             <>
                 <h4 className="mb-30">
@@ -665,11 +732,11 @@ const mac = (t: any, currentLang: string) => {
                     </div>
                 </div>
             </>
-        )      
+        )
     }
 }
 const windows = (t: any, currentLang: string) => {
-    if (currentLang.includes("ar")){
+    if (currentLang.includes("ar")) {
         return (
             <>
                 <h4 className="mb-30">
@@ -701,13 +768,13 @@ const windows = (t: any, currentLang: string) => {
                 </div>
             </>
         )
-    }else{
+    } else {
         return (
             <>
                 <h4 className="mb-30">
                     <b>{t("platform.windowsTitle")}</b>
                 </h4>
-    
+
                 <div className="bg-gray p-5 mb-60">
                     <div className="row justify-content-center mb-10">
                         <div className="col-lg-4 text-left align-bottom mb-20">
@@ -759,11 +826,11 @@ function platformContent(id: number, t: any, currentLang: string) {
 
 function sideBar(id: number, t: any) {
     const fundsDict = [
-        {id: 0, router: "iphone", content: t("platform.iphoneTitle"), style: "border-bottom"},
-        {id: 1, router: "ipad", content: t("platform.ipadTitle"), style: "border-bottom"},
-        {id: 2, router: "android", content: t("platform.androidTitle"), style: "border-bottom"},
-        {id: 3, router: "windows", content: t("platform.windowsTitle"), style: "border-bottom"},
-        {id: 4, router: "mac", content: t("platform.macTitle"), style: "border-bottom"},
+        { id: 0, router: "iphone", content: t("platform.iphoneTitle"), style: "border-bottom" },
+        { id: 1, router: "ipad", content: t("platform.ipadTitle"), style: "border-bottom" },
+        { id: 2, router: "android", content: t("platform.androidTitle"), style: "border-bottom" },
+        { id: 3, router: "windows", content: t("platform.windowsTitle"), style: "border-bottom" },
+        { id: 4, router: "mac", content: t("platform.macTitle"), style: "border-bottom" },
     ]
     fundsDict[id].style = "active border-bottom"
     const listSidebar = fundsDict.map(fundsDictItem => (
@@ -776,18 +843,18 @@ function sideBar(id: number, t: any) {
     return <>{listSidebar}</>
 }
 
-export default function Platform({highlightString}: Props) {
-    const {t, i18n} = useTranslation("")
+export default function Platform({ highlightString }: Props) {
+    const { t, i18n } = useTranslation("")
     const currentLang = i18n.language
     const lanPlatform = (languageCode: string) => {
-        if (languageCode.includes("ar")) { 
+        if (languageCode.includes("ar")) {
             return (
                 <>
-                <Helmet>
-                    <title>{t("seo.paltform.Title")}</title>
-                    <meta name="description" content={t("seo.paltform.Description")} />
-                    <meta name="keywords" content={t("seo.paltform.Keywords")} />
-                </Helmet>
+                    <Helmet>
+                        <title>{t("seo.paltform.Title")}</title>
+                        <meta name="description" content={t("seo.paltform.Description")} />
+                        <meta name="keywords" content={t("seo.paltform.Keywords")} />
+                    </Helmet>
                     <LayoutSecondary bannerImg={bannerImg} pageTitle={t("platform.platformTitle")}>
                         <section className="section">
                             <div className="container">
@@ -804,14 +871,14 @@ export default function Platform({highlightString}: Props) {
                     </LayoutSecondary>
                 </>
             )
-        }else{
+        } else {
             return (
                 <>
-                <Helmet>
-                    <title>{t("seo.paltform.Title")}</title>
-                    <meta name="description" content={t("seo.paltform.Description")} />
-                    <meta name="keywords" content={t("seo.paltform.Keywords")} />
-                </Helmet>
+                    <Helmet>
+                        <title>{t("seo.paltform.Title")}</title>
+                        <meta name="description" content={t("seo.paltform.Description")} />
+                        <meta name="keywords" content={t("seo.paltform.Keywords")} />
+                    </Helmet>
                     <LayoutSecondary bannerImg={bannerImg} pageTitle={t("platform.platformTitle")}>
                         <section className="section">
                             <div className="container">

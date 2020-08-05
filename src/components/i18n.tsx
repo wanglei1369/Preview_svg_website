@@ -12,6 +12,8 @@ import translationKo from "../locales/ko/translation"
 import translationTh from "../locales/th/translation"
 import translationMs from "../locales/ms/translation"
 import translationAr from "../locales/ar/translation"
+import translationId from "../locales/id/translation"
+import translationJp from "../locales/jp/translation"
 import notFoundEn from "../locales/en/NotFound"
 import notFoundZh from "../locales/zh/NotFound"
 import notFoundTw from "../locales/tw/NotFound"
@@ -20,6 +22,8 @@ import notFoundKo from "../locales/ko/NotFound"
 import notFoundTh from "../locales/th/NotFound"
 import notFoundMs from "../locales/ms/NotFound"
 import notFoundAr from "../locales/ar/NotFound"
+import notFoundId from "../locales/id/NotFound"
+import notFoundJp from "../locales/jp/NotFound"
 import cfdEn from "../locales/en/cfd"
 import cfdZh from "../locales/zh/cfd"
 import cfdTw from "../locales/tw/cfd"
@@ -61,6 +65,14 @@ const resources = {
         translation:translationAr,
         NotFound: notFoundAr,
         cfd: cfdAr,
+    },
+    id:{
+        translation:translationId,
+        NotFound: notFoundId,
+    },
+    jp:{
+        translation:translationJp,
+        NotFound: notFoundJp,
     }
 }
 

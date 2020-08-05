@@ -51,7 +51,7 @@ function PromotionDetails() {
                                 <div className="p-5 box-shadow contact-form text-center">
                                     <form
                                         method="POST"
-                                        action="https://formspree.io/client@cjcmarkets-svg.com"
+                                        action="https://formspree.io/clients@cjcmarkets-svg.com"
                                         className="row">
                                         <div className="col-lg-12 mb-4">
                                             <input

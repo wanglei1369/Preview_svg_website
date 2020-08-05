@@ -210,6 +210,8 @@ export default {
         china: "Mainland China",
         southEastAsia: "Southeast Asia",
         southPacific: "South Pacific",
+        arab: "The United Arab Emirates",
+        egypt: "Egypt"
     },
     login: {
         loginChooser: "Sila pilih panel log masuk anda",

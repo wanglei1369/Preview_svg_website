@@ -91,6 +91,14 @@ const PromotionIBCn = () => {
         </Suspense>
     )
 }
+const PromotionTACnComponent = lazy(() => import("./pages/PromotionTA-CN"))
+const PromotionTACn = () => {
+    return (
+        <Suspense fallback={null}>
+            <PromotionTACnComponent />
+        </Suspense>
+    )
+}
 ReactDOM.render(
     <Router>
         <ScrollToTop>
@@ -138,28 +146,32 @@ ReactDOM.render(
                 <Route
                     path="/login/broker"
                     component={() => {
-                        window.location.href = "https://broker.cjcmarkets-svg.com/"
+                        // window.location.href = "https://broker.cjcmarkets-svg.com/"
+                        window.location.href = "https://broker.cjcmarkets-global.com/"
                         return null
                     }}
                 />
                 <Route
                     path="/login/trader"
                     component={() => {
-                        window.location.href = "https://trader.cjcmarkets-svg.com/login"
+                        // window.location.href = "https://trader.cjcmarkets-svg.com/login"
+                        window.location.href = "https://trader.cjcmarkets-global.com/login"
                         return null
                     }}
                 />
                 <Route
                     path="/external-sign-up"
                     component={() => {
-                        window.location.href = "https://trader.cjcmarkets-svg.com/register/"
+                        window.location.href = "https://trader.cjcmarkets-global.com/register/"
+                        // window.location.href = "https://trader.cjcmarkets-svg.com/register/"
                         return null
                     }}
                 />
                 <Route
                     path="/external-mock-up"
                     component={() => {
-                        window.location.href = "https://trader.cjcmarkets-svg.com/registerMock"
+                        window.location.href = "https://trader.cjcmarkets-global.com/registerMock"
+                        // window.location.href = "https://trader.cjcmarkets-svg.com/registerMock"
                         return null
                     }}
                 />
@@ -201,6 +213,13 @@ ReactDOM.render(
                         return null
                     }}
                 />
+                 <Route
+                    path="/platform-download/goto/windows-zh"
+                    component={() => {
+                        window.location.href = "https://download.cjcmarkets-global.com/cjcmarkets4setup.exe"
+                        return null
+                    }}
+                />
                 <Route
                     path="/platform-download/goto/windows-vi"
                     component={() => {
@@ -226,6 +245,7 @@ ReactDOM.render(
                 <Route path="/news/:props" exact component={NewsSingle} />
                 <Route path="/promotion-cn" exact component={PromotionCn} />
                 <Route path="/PromotionIB-CN" exact component={PromotionIBCn}/>
+                <Route path="/PromotionTA-CN" exact component={PromotionTACn}/>
                 <Route path="/about-us" exact component={AboutUsPage} />
                 <Route path="/404" component={NotFound} />
                 <Route path="*" component={NotFound} />
